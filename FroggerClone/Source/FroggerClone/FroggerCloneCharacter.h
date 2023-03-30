@@ -21,6 +21,14 @@ class AFroggerCloneCharacter : public ACharacter
 public:
 	AFroggerCloneCharacter();
 
+	UFUNCTION()
+		void OnOverlapBegin(UPrimitiveComponent* overlapped, AActor* actor,
+			UPrimitiveComponent* other_comp, int32 other_index, bool sweep_result, const FHitResult& hit);
+
+protected:
+	// Called when the game starts or when spawned
+	virtual void BeginPlay() override;
+
 protected:
 
 	/** Called for forwards/backward input */

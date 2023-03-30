@@ -44,6 +44,21 @@ AFroggerCloneCharacter::AFroggerCloneCharacter()
 	// are set in the derived blueprint asset named MyCharacter (to avoid direct content references in C++)
 }
 
+void AFroggerCloneCharacter::OnOverlapBegin(UPrimitiveComponent* overlapped, AActor* actor, UPrimitiveComponent* other_comp, int32 other_index, bool sweep_result, const FHitResult& hit)
+{
+	if (actor != nullptr)
+	{
+
+	}
+}
+
+void AFroggerCloneCharacter::BeginPlay()
+{
+	Super::BeginPlay();
+
+	GetCapsuleComponent()->OnComponentBeginOverlap.AddDynamic(this, &AFroggerCloneCharacter::OnOverlapBegin);
+}
+
 //////////////////////////////////////////////////////////////////////////
 // Input
 
@@ -108,3 +123,5 @@ void AFroggerCloneCharacter::MoveRight(float Value)
 		}
 	}
 }
+
+

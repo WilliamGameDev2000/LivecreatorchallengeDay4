@@ -1,0 +1,3 @@
+C:\Users\William\Documents\GitHub\LivecreatorchallengeDay4\FroggerClone\Intermediate\Build\Win64\UE4Editor\Development\FroggerClone\Definitions.FroggerClone.h
+C:\Users\William\Documents\GitHub\LivecreatorchallengeDay4\FroggerClone\Source\FroggerClone\SafteyLog.h
+C:\Users\William\Documents\GitHub\LivecreatorchallengeDay4\FroggerClone\Intermediate\Build\Win64\UE4Editor\Inc\FroggerClone\SafteyLog.generated.h

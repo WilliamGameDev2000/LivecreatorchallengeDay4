@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\FroggerClone.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{FCF7DD2B-E1DA-479B-A3EF-98830F7835B7}</UniqueIdentifier>
+      <UniqueIdentifier>{DD17DD06-C491-46A2-80E1-C717B6DCA65B}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\FroggerClone.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{59283A9D-46E0-44D4-AEF1-43F633D9C86E}</UniqueIdentifier>
+      <UniqueIdentifier>{677A29ED-51F2-476E-8D35-B4BE074986FC}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -30,7 +30,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\FroggerClone">
-      <UniqueIdentifier>{1C6F3243-CAF5-46A0-9C9B-D5E8711B3B6C}</UniqueIdentifier>
+      <UniqueIdentifier>{0314F7AE-7D04-48A3-AB09-04863643BCFA}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\FroggerClone\FroggerClone.Build.cs">
       <Filter>Source\FroggerClone</Filter>
@@ -51,6 +51,30 @@
       <Filter>Source\FroggerClone</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\FroggerClone\FroggerCloneGameMode.h">
+      <Filter>Source\FroggerClone</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\FroggerClone\LevelSpawner.cpp">
+      <Filter>Source\FroggerClone</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\FroggerClone\LevelSpawner.h">
+      <Filter>Source\FroggerClone</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\FroggerClone\RockObject.cpp">
+      <Filter>Source\FroggerClone</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\FroggerClone\RockObject.h">
+      <Filter>Source\FroggerClone</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\FroggerClone\SafteyLog.cpp">
+      <Filter>Source\FroggerClone</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\FroggerClone\SafteyLog.h">
+      <Filter>Source\FroggerClone</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\FroggerClone\TerrainSlices.cpp">
+      <Filter>Source\FroggerClone</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\FroggerClone\TerrainSlices.h">
       <Filter>Source\FroggerClone</Filter>
     </ClInclude>
   </ItemGroup>

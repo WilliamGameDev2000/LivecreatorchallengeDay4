@@ -21,8 +21,8 @@ void EmptyLinkFunctionForGeneratedCodeFroggerClone_init() {}
 				nullptr,
 				0,
 				PKG_CompiledIn | 0x00000000,
-				0x7D4D9DA0,
-				0x7940320B,
+				0x67A9BB59,
+				0xB89B6A10,
 				METADATA_PARAMS(nullptr, 0)
 			};
 			UE4CodeGen_Private::ConstructUPackage(ReturnPackage, PackageParams);

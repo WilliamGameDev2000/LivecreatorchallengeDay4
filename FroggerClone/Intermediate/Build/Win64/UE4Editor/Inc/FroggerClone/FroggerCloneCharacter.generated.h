@@ -8,6 +8,9 @@
 #include "UObject/ScriptMacros.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
+class UPrimitiveComponent;
+class AActor;
+struct FHitResult;
 #ifdef FROGGERCLONE_FroggerCloneCharacter_generated_h
 #error "FroggerCloneCharacter.generated.h already included, missing '#pragma once' in FroggerCloneCharacter.h"
 #endif
@@ -16,12 +19,14 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #define FroggerClone_Source_FroggerClone_FroggerCloneCharacter_h_12_SPARSE_DATA
 #define FroggerClone_Source_FroggerClone_FroggerCloneCharacter_h_12_RPC_WRAPPERS \
  \
-	DECLARE_FUNCTION(execTimerEnd);
+	DECLARE_FUNCTION(execTimerEnd); \
+	DECLARE_FUNCTION(execOnOverlapBegin);
 
 
 #define FroggerClone_Source_FroggerClone_FroggerCloneCharacter_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
  \
-	DECLARE_FUNCTION(execTimerEnd);
+	DECLARE_FUNCTION(execTimerEnd); \
+	DECLARE_FUNCTION(execOnOverlapBegin);
 
 
 #define FroggerClone_Source_FroggerClone_FroggerCloneCharacter_h_12_INCLASS_NO_PURE_DECLS \
