@@ -1,0 +1,15 @@
+C:\Users\William\Documents\GitHub\LivecreatorchallengeDay4\FroggerClone\Intermediate\Build\Win64\UE4Editor\Development\FroggerClone\Definitions.FroggerClone.h
+C:\Users\William\Documents\GitHub\LivecreatorchallengeDay4\FroggerClone\Source\FroggerClone\FroggerCloneGameMode.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/GameModeBase.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\Engine/ServerStatReplicator.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ServerStatReplicator.generated.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameModeBase.generated.h
+C:\Users\William\Documents\GitHub\LivecreatorchallengeDay4\FroggerClone\Intermediate\Build\Win64\UE4Editor\Inc\FroggerClone\FroggerCloneGameMode.generated.h
+C:\Users\William\Documents\GitHub\LivecreatorchallengeDay4\FroggerClone\Source\FroggerClone\FroggerCloneCharacter.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/Character.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/CharacterMovementReplication.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\CharacterMovementReplication.generated.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/RootMotionSource.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\RootMotionSource.generated.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Character.generated.h
+C:\Users\William\Documents\GitHub\LivecreatorchallengeDay4\FroggerClone\Intermediate\Build\Win64\UE4Editor\Inc\FroggerClone\FroggerCloneCharacter.generated.h

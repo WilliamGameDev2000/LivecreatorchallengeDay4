@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "FroggerClone",
+			"Path": "C:\\Users\\William\\Documents\\GitHub\\LivecreatorchallengeDay4\\FroggerClone\\Source\\FroggerClone.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "FroggerCloneEditor",
+			"Path": "C:\\Users\\William\\Documents\\GitHub\\LivecreatorchallengeDay4\\FroggerClone\\Source\\FroggerCloneEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}
