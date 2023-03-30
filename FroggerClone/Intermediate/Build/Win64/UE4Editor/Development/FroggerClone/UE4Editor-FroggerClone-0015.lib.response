@@ -1,0 +1,17 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-FroggerClone-0015.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\Users\William\Documents\GitHub\LivecreatorchallengeDay4\FroggerClone\Intermediate\Build\Win64\FroggerCloneEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+"C:\Users\William\Documents\GitHub\LivecreatorchallengeDay4\FroggerClone\Intermediate\Build\Win64\UE4Editor\Development\FroggerClone\FroggerClone.cpp.obj"
+"C:\Users\William\Documents\GitHub\LivecreatorchallengeDay4\FroggerClone\Intermediate\Build\Win64\UE4Editor\Development\FroggerClone\FroggerCloneCharacter.cpp.obj"
+"C:\Users\William\Documents\GitHub\LivecreatorchallengeDay4\FroggerClone\Intermediate\Build\Win64\UE4Editor\Development\FroggerClone\FroggerCloneGameMode.cpp.obj"
+"C:\Users\William\Documents\GitHub\LivecreatorchallengeDay4\FroggerClone\Intermediate\Build\Win64\UE4Editor\Development\FroggerClone\FroggerClone.init.gen.cpp.obj"
+"C:\Users\William\Documents\GitHub\LivecreatorchallengeDay4\FroggerClone\Intermediate\Build\Win64\UE4Editor\Development\FroggerClone\FroggerCloneCharacter.gen.cpp.obj"
+"C:\Users\William\Documents\GitHub\LivecreatorchallengeDay4\FroggerClone\Intermediate\Build\Win64\UE4Editor\Development\FroggerClone\FroggerCloneGameMode.gen.cpp.obj"
+"C:\Users\William\Documents\GitHub\LivecreatorchallengeDay4\FroggerClone\Intermediate\Build\Win64\UE4Editor\Development\FroggerClone\Default.rc2.res"
+/OUT:"C:\Users\William\Documents\GitHub\LivecreatorchallengeDay4\FroggerClone\Intermediate\Build\Win64\UE4Editor\Development\FroggerClone\UE4Editor-FroggerClone-0015.lib"

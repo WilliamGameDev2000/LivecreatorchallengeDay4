@@ -1478,3 +1478,1082 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2023.03.30-09.01.28:593][ 49]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
 [2023.03.30-09.01.28:612][ 49]LogUObjectHash: Compacting FUObjectHashTables data took   3.03ms
 [2023.03.30-09.01.28:637][ 50]LogPlayLevel: Display: Destroying online subsystem :Context_15
+[2023.03.30-09.15.26:328][931]LogHotReload: New module detected: UE4Editor-FroggerClone-0004.dll
+[2023.03.30-09.15.27:595][963]LogHotReload: Starting Hot-Reload from IDE
+[2023.03.30-09.15.28:315][963]LogClass: Could not find existing class FroggerCloneCharacter in package /Script/FroggerClone for HotReload, assuming new class
+[2023.03.30-09.15.28:397][963]LogHotReload: Re-instancing FroggerCloneCharacter after hot-reload.
+[2023.03.30-09.15.28:814][963]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'FroggerClone' in 0.0061 seconds. Added 2 classes and 2 folders.
+[2023.03.30-09.15.28:842][963]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2023.03.30-09.15.29:054][963]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0175 seconds. Added 3824 classes and 930 folders.
+[2023.03.30-09.15.29:070][963]Display: HotReload took  1.5s.
+[2023.03.30-09.15.44:081][809]LogSavePackage: Moving '../../../../../../Users/William/Documents/GitHub/LivecreatorchallengeDay4/FroggerClone/Saved/ThirdPersonCharacterFD098C11489A96571E2CE08F272056F1.tmp' to '../../../../../../Users/William/Documents/GitHub/LivecreatorchallengeDay4/FroggerClone/Content/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.uasset'
+[2023.03.30-09.15.44:130][809]AssetCheck: New page: Asset Save: ThirdPersonCharacter
+[2023.03.30-09.15.44:130][809]LogContentValidation: Display: Validating Blueprint /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter
+[2023.03.30-09.15.44:727][843]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2023.03.30-09.15.44:991][843]LogUObjectHash: Compacting FUObjectHashTables data took   7.74ms
+[2023.03.30-09.15.46:163][897]LogUObjectHash: Compacting FUObjectHashTables data took   3.49ms
+[2023.03.30-09.15.46:226][897]LogSavePackage: Moving '../../../../../../Users/William/Documents/GitHub/LivecreatorchallengeDay4/FroggerClone/Saved/ThirdPersonExampleMap725D8128423DE162710A4BA1FD7E26E0.tmp' to '../../../../../../Users/William/Documents/GitHub/LivecreatorchallengeDay4/FroggerClone/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap.umap'
+[2023.03.30-09.15.46:363][897]LogSavePackage: Moving '../../../../../../Users/William/Documents/GitHub/LivecreatorchallengeDay4/FroggerClone/Saved/ThirdPersonExampleMap_BuiltData09BE4463413157889C5D80A8C7BE05B9.tmp' to '../../../../../../Users/William/Documents/GitHub/LivecreatorchallengeDay4/FroggerClone/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2023.03.30-09.15.46:386][897]AssetCheck: New page: Asset Save: multiple assets
+[2023.03.30-09.15.46:386][897]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap_BuiltData.ThirdPersonExampleMap_BuiltData
+[2023.03.30-09.15.46:386][897]LogContentValidation: Display: Validating World /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap
+[2023.03.30-09.15.48:129][998]LogTemp: Repeating last play command: Selected Viewport
+[2023.03.30-09.15.48:146][998]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.03.30-09.15.48:155][998]PIE: New page: PIE session: ThirdPersonExampleMap (30 Mar 2023, 11:15:48)
+[2023.03.30-09.15.48:158][998]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2023.03.30-09.15.48:203][998]LogPlayLevel: PIE: StaticDuplicateObject took: (0.042215s)
+[2023.03.30-09.15.48:238][998]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2023.03.30-09.15.48:245][998]LogPlayLevel: PIE: World Init took: (0.042074s)
+[2023.03.30-09.15.48:245][998]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.087112s)
+[2023.03.30-09.15.48:273][998]LogUObjectHash: Compacting FUObjectHashTables data took   2.67ms
+[2023.03.30-09.15.48:276][998]LogAudio: Display: Creating Audio Device:                 Id: 6, Scope: Unique, Realtime: True
+[2023.03.30-09.15.48:278][998]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.03.30-09.15.48:278][998]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.03.30-09.15.48:278][998]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.03.30-09.15.48:278][998]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.03.30-09.15.48:278][998]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.03.30-09.15.48:278][998]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.03.30-09.15.48:278][998]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.03.30-09.15.48:278][998]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.03.30-09.15.48:281][998]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.03.30-09.15.48:281][998]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.03.30-09.15.48:281][998]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.03.30-09.15.48:281][998]LogAudioMixer: Display: Initializing audio mixer.
+[2023.03.30-09.15.48:294][998]LogAudioMixer: Display: 0: FrontLeft
+[2023.03.30-09.15.48:294][998]LogAudioMixer: Display: 1: FrontRight
+[2023.03.30-09.15.48:408][998]LogAudioMixer: Display: Using Audio Device Headphones (Realtek(R) Audio)
+[2023.03.30-09.15.48:412][998]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.03.30-09.15.48:412][998]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.03.30-09.15.48:413][998]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.03.30-09.15.48:417][998]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2023.03.30-09.15.48:417][998]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2023.03.30-09.15.48:417][998]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2023.03.30-09.15.48:800][998]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2023.03.30-09.15.48:800][998]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2023.03.30-09.15.48:800][998]LogInit: FAudioDevice initialized.
+[2023.03.30-09.15.48:800][998]LogAudio: Display: Audio Device (ID: 6) registered with world 'ThirdPersonExampleMap'.
+[2023.03.30-09.15.49:107][998]LogLoad: Game class is 'FroggerCloneGameMode'
+[2023.03.30-09.15.49:144][998]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2023.03.30-10.15.49
+[2023.03.30-09.15.49:153][998]LogWorld: Bringing up level for play took: 0.030450
+[2023.03.30-09.15.49:164][998]LogOnline: OSS: Creating online subsystem instance for: :Context_16
+[2023.03.30-09.15.49:237][998]PIE: Server logged in
+[2023.03.30-09.15.49:238][998]PIE: Play in editor total start time 1.101 seconds.
+[2023.03.30-09.15.57:815][501]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.30-09.15.57:816][501]LogWorld: BeginTearingDown for /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2023.03.30-09.15.57:821][501]LogWorld: UWorld::CleanupWorld for ThirdPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2023.03.30-09.15.57:824][501]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.30-09.15.57:871][501]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.03.30-09.15.57:877][501]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.30-09.15.57:905][501]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.03.30-09.15.57:907][501]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.03.30-09.15.57:909][501]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.03.30-09.15.57:915][501]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.30-09.15.57:933][501]LogUObjectHash: Compacting FUObjectHashTables data took   3.26ms
+[2023.03.30-09.15.57:964][502]LogPlayLevel: Display: Destroying online subsystem :Context_16
+[2023.03.30-09.23.51:621][118]LogHotReload: New module detected: UE4Editor-FroggerClone-0006.dll
+[2023.03.30-09.23.52:773][123]LogHotReload: Starting Hot-Reload from IDE
+[2023.03.30-09.23.53:287][123]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'FroggerClone' in 0.0061 seconds. Added 2 classes and 2 folders.
+[2023.03.30-09.23.53:322][123]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2023.03.30-09.23.53:642][123]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0234 seconds. Added 3824 classes and 930 folders.
+[2023.03.30-09.23.53:656][123]Display: HotReload took  0.9s.
+[2023.03.30-09.23.57:908][317]LogTemp: Repeating last play command: Selected Viewport
+[2023.03.30-09.23.57:934][317]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.03.30-09.23.57:941][317]PIE: New page: PIE session: ThirdPersonExampleMap (30 Mar 2023, 11:23:57)
+[2023.03.30-09.23.57:948][317]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2023.03.30-09.23.58:043][317]LogPlayLevel: PIE: StaticDuplicateObject took: (0.091819s)
+[2023.03.30-09.23.58:083][317]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2023.03.30-09.23.58:094][317]LogPlayLevel: PIE: World Init took: (0.051903s)
+[2023.03.30-09.23.58:095][317]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.146929s)
+[2023.03.30-09.23.58:498][317]LogUObjectHash: Compacting FUObjectHashTables data took   8.17ms
+[2023.03.30-09.23.58:538][317]LogAudio: Display: Creating Audio Device:                 Id: 7, Scope: Unique, Realtime: True
+[2023.03.30-09.23.58:541][317]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.03.30-09.23.58:541][317]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.03.30-09.23.58:541][317]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.03.30-09.23.58:541][317]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.03.30-09.23.58:541][317]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.03.30-09.23.58:541][317]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.03.30-09.23.58:541][317]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.03.30-09.23.58:542][317]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.03.30-09.23.58:548][317]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.03.30-09.23.58:548][317]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.03.30-09.23.58:548][317]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.03.30-09.23.58:550][317]LogAudioMixer: Display: Initializing audio mixer.
+[2023.03.30-09.23.58:573][317]LogAudioMixer: Display: 0: FrontLeft
+[2023.03.30-09.23.58:573][317]LogAudioMixer: Display: 1: FrontRight
+[2023.03.30-09.23.58:666][317]LogAudioMixer: Display: Using Audio Device Headphones (Realtek(R) Audio)
+[2023.03.30-09.23.58:681][317]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.03.30-09.23.58:681][317]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.03.30-09.23.58:682][317]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.03.30-09.23.58:690][317]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2023.03.30-09.23.58:691][317]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2023.03.30-09.23.58:691][317]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2023.03.30-09.23.58:707][317]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2023.03.30-09.23.58:707][317]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2023.03.30-09.23.58:707][317]LogInit: FAudioDevice initialized.
+[2023.03.30-09.23.58:707][317]LogAudio: Display: Audio Device (ID: 7) registered with world 'ThirdPersonExampleMap'.
+[2023.03.30-09.23.58:787][317]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.30-09.23.58:796][317]LogLoad: Game class is 'FroggerCloneGameMode'
+[2023.03.30-09.23.58:862][317]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2023.03.30-10.23.58
+[2023.03.30-09.23.58:866][317]LogWorld: Bringing up level for play took: 0.058320
+[2023.03.30-09.23.58:881][317]LogOnline: OSS: Creating online subsystem instance for: :Context_17
+[2023.03.30-09.23.58:981][317]PIE: Server logged in
+[2023.03.30-09.23.58:983][317]PIE: Play in editor total start time 1.059 seconds.
+[2023.03.30-09.24.01:276][424]LogRenderer: Reallocating scene render targets to support 1536x792 Format 10 NumSamples 1 (Frame:108).
+[2023.03.30-09.24.09:378][898]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.30-09.24.09:378][898]LogWorld: BeginTearingDown for /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2023.03.30-09.24.09:384][898]LogSlate: Window 'FroggerClone Preview [NetMode: Standalone]  (64-bit/Windows) ' being destroyed
+[2023.03.30-09.24.09:391][898]LogWorld: UWorld::CleanupWorld for ThirdPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2023.03.30-09.24.09:397][898]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.30-09.24.09:424][898]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.03.30-09.24.09:435][898]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.30-09.24.09:481][898]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.03.30-09.24.09:492][898]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.03.30-09.24.09:601][898]LogUObjectHash: Compacting FUObjectHashTables data took   4.19ms
+[2023.03.30-09.24.09:622][899]LogPlayLevel: Display: Destroying online subsystem :Context_17
+[2023.03.30-09.25.14:893][427]LogHotReload: New module detected: UE4Editor-FroggerClone-0007.dll
+[2023.03.30-09.25.16:271][432]LogHotReload: Starting Hot-Reload from IDE
+[2023.03.30-09.25.16:364][432]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'FroggerClone' in 0.0005 seconds. Added 2 classes and 2 folders.
+[2023.03.30-09.25.16:373][432]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2023.03.30-09.25.16:488][432]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0135 seconds. Added 3824 classes and 930 folders.
+[2023.03.30-09.25.16:493][432]Display: HotReload took  0.2s.
+[2023.03.30-09.25.22:320][541]LogTemp: Repeating last play command: Selected Viewport
+[2023.03.30-09.25.22:327][541]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.03.30-09.25.22:327][541]PIE: New page: PIE session: ThirdPersonExampleMap (30 Mar 2023, 11:25:22)
+[2023.03.30-09.25.22:327][541]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2023.03.30-09.25.22:345][541]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017847s)
+[2023.03.30-09.25.22:347][541]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2023.03.30-09.25.22:348][541]LogPlayLevel: PIE: World Init took: (0.002911s)
+[2023.03.30-09.25.22:348][541]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.021235s)
+[2023.03.30-09.25.22:431][541]LogUObjectHash: Compacting FUObjectHashTables data took   5.13ms
+[2023.03.30-09.25.22:436][541]LogAudio: Display: Creating Audio Device:                 Id: 8, Scope: Unique, Realtime: True
+[2023.03.30-09.25.22:436][541]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.03.30-09.25.22:436][541]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.03.30-09.25.22:436][541]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.03.30-09.25.22:436][541]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.03.30-09.25.22:436][541]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.03.30-09.25.22:436][541]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.03.30-09.25.22:436][541]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.03.30-09.25.22:436][541]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.03.30-09.25.22:438][541]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.03.30-09.25.22:438][541]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.03.30-09.25.22:438][541]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.03.30-09.25.22:438][541]LogAudioMixer: Display: Initializing audio mixer.
+[2023.03.30-09.25.22:442][541]LogAudioMixer: Display: 0: FrontLeft
+[2023.03.30-09.25.22:442][541]LogAudioMixer: Display: 1: FrontRight
+[2023.03.30-09.25.22:508][541]LogAudioMixer: Display: Using Audio Device Headphones (Realtek(R) Audio)
+[2023.03.30-09.25.22:514][541]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.03.30-09.25.22:514][541]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.03.30-09.25.22:514][541]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.03.30-09.25.22:515][541]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2023.03.30-09.25.22:515][541]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2023.03.30-09.25.22:515][541]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2023.03.30-09.25.22:517][541]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2023.03.30-09.25.22:517][541]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2023.03.30-09.25.22:517][541]LogInit: FAudioDevice initialized.
+[2023.03.30-09.25.22:517][541]LogAudio: Display: Audio Device (ID: 8) registered with world 'ThirdPersonExampleMap'.
+[2023.03.30-09.25.22:547][541]LogLoad: Game class is 'FroggerCloneGameMode'
+[2023.03.30-09.25.22:549][541]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2023.03.30-10.25.22
+[2023.03.30-09.25.22:549][541]LogWorld: Bringing up level for play took: 0.001777
+[2023.03.30-09.25.22:549][541]LogOnline: OSS: Creating online subsystem instance for: :Context_18
+[2023.03.30-09.25.22:552][541]PIE: Server logged in
+[2023.03.30-09.25.22:553][541]PIE: Play in editor total start time 0.229 seconds.
+[2023.03.30-09.25.41:503][673]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.30-09.25.41:503][673]LogWorld: BeginTearingDown for /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2023.03.30-09.25.41:503][673]LogWorld: UWorld::CleanupWorld for ThirdPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2023.03.30-09.25.41:503][673]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.30-09.25.41:536][673]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.03.30-09.25.41:542][673]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.30-09.25.41:567][673]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.30-09.25.41:568][673]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.03.30-09.25.41:569][673]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.03.30-09.25.41:614][673]LogUObjectHash: Compacting FUObjectHashTables data took   4.17ms
+[2023.03.30-09.25.41:642][674]LogPlayLevel: Display: Destroying online subsystem :Context_18
+[2023.03.30-09.26.50:796][979]LogHotReload: New module detected: UE4Editor-FroggerClone-0008.dll
+[2023.03.30-09.26.51:814][983]LogHotReload: Starting Hot-Reload from IDE
+[2023.03.30-09.26.51:918][983]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'FroggerClone' in 0.0003 seconds. Added 2 classes and 2 folders.
+[2023.03.30-09.26.51:923][983]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2023.03.30-09.26.52:017][983]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0124 seconds. Added 3824 classes and 930 folders.
+[2023.03.30-09.26.52:023][983]Display: HotReload took  0.2s.
+[2023.03.30-09.26.54:765][ 76]LogTemp: Repeating last play command: Selected Viewport
+[2023.03.30-09.26.54:772][ 76]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.03.30-09.26.54:772][ 76]PIE: New page: PIE session: ThirdPersonExampleMap (30 Mar 2023, 11:26:54)
+[2023.03.30-09.26.54:798][ 76]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2023.03.30-09.26.54:812][ 76]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013541s)
+[2023.03.30-09.26.54:814][ 76]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2023.03.30-09.26.54:814][ 76]LogPlayLevel: PIE: World Init took: (0.002187s)
+[2023.03.30-09.26.54:814][ 76]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.016236s)
+[2023.03.30-09.26.54:910][ 76]LogUObjectHash: Compacting FUObjectHashTables data took   6.03ms
+[2023.03.30-09.26.54:914][ 76]LogAudio: Display: Creating Audio Device:                 Id: 9, Scope: Unique, Realtime: True
+[2023.03.30-09.26.54:914][ 76]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.03.30-09.26.54:914][ 76]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.03.30-09.26.54:914][ 76]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.03.30-09.26.54:914][ 76]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.03.30-09.26.54:914][ 76]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.03.30-09.26.54:914][ 76]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.03.30-09.26.54:914][ 76]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.03.30-09.26.54:914][ 76]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.03.30-09.26.54:915][ 76]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.03.30-09.26.54:915][ 76]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.03.30-09.26.54:915][ 76]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.03.30-09.26.54:915][ 76]LogAudioMixer: Display: Initializing audio mixer.
+[2023.03.30-09.26.54:918][ 76]LogAudioMixer: Display: 0: FrontLeft
+[2023.03.30-09.26.54:918][ 76]LogAudioMixer: Display: 1: FrontRight
+[2023.03.30-09.26.54:989][ 76]LogAudioMixer: Display: Using Audio Device Headphones (Realtek(R) Audio)
+[2023.03.30-09.26.54:989][ 76]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.03.30-09.26.54:989][ 76]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.03.30-09.26.54:989][ 76]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.03.30-09.26.54:991][ 76]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2023.03.30-09.26.54:991][ 76]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2023.03.30-09.26.54:991][ 76]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2023.03.30-09.26.54:993][ 76]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2023.03.30-09.26.54:993][ 76]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2023.03.30-09.26.54:993][ 76]LogInit: FAudioDevice initialized.
+[2023.03.30-09.26.54:993][ 76]LogAudio: Display: Audio Device (ID: 9) registered with world 'ThirdPersonExampleMap'.
+[2023.03.30-09.26.55:012][ 76]LogLoad: Game class is 'FroggerCloneGameMode'
+[2023.03.30-09.26.55:015][ 76]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2023.03.30-10.26.55
+[2023.03.30-09.26.55:015][ 76]LogWorld: Bringing up level for play took: 0.002055
+[2023.03.30-09.26.55:015][ 76]LogOnline: OSS: Creating online subsystem instance for: :Context_19
+[2023.03.30-09.26.55:020][ 76]PIE: Server logged in
+[2023.03.30-09.26.55:021][ 76]PIE: Play in editor total start time 0.252 seconds.
+[2023.03.30-09.27.01:502][459]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.30-09.27.01:504][459]LogWorld: BeginTearingDown for /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2023.03.30-09.27.01:504][459]LogWorld: UWorld::CleanupWorld for ThirdPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2023.03.30-09.27.01:504][459]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.30-09.27.01:527][459]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.03.30-09.27.01:533][459]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.30-09.27.01:561][459]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.03.30-09.27.01:562][459]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.03.30-09.27.01:564][459]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.03.30-09.27.01:571][459]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.30-09.27.01:616][459]LogUObjectHash: Compacting FUObjectHashTables data took   3.42ms
+[2023.03.30-09.27.01:657][460]LogPlayLevel: Display: Destroying online subsystem :Context_19
+[2023.03.30-09.27.03:556][568]LogUObjectHash: Compacting FUObjectHashTables data took   2.51ms
+[2023.03.30-09.27.03:598][568]LogSavePackage: Moving '../../../../../../Users/William/Documents/GitHub/LivecreatorchallengeDay4/FroggerClone/Saved/ThirdPersonExampleMapC94B8211440B610FB6BC8288312B3588.tmp' to '../../../../../../Users/William/Documents/GitHub/LivecreatorchallengeDay4/FroggerClone/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap.umap'
+[2023.03.30-09.27.03:692][568]LogSavePackage: Moving '../../../../../../Users/William/Documents/GitHub/LivecreatorchallengeDay4/FroggerClone/Saved/ThirdPersonExampleMap_BuiltDataD3B9E6DB45A5F6BF3A9DDC82E8893A62.tmp' to '../../../../../../Users/William/Documents/GitHub/LivecreatorchallengeDay4/FroggerClone/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2023.03.30-09.27.03:712][568]AssetCheck: New page: Asset Save: multiple assets
+[2023.03.30-09.27.03:712][568]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap_BuiltData.ThirdPersonExampleMap_BuiltData
+[2023.03.30-09.27.03:712][568]LogContentValidation: Display: Validating World /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap
+[2023.03.30-09.27.05:177][652]Candidate modules for hot reload:
+[2023.03.30-09.27.05:177][652]  FroggerClone
+[2023.03.30-09.27.05:177][652]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.27/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=FroggerClone,1732 FroggerCloneEditor Win64 Development -Project="C:/Users/William/Documents/GitHub/LivecreatorchallengeDay4/FroggerClone/FroggerClone.uproject" "C:/Users/William/Documents/GitHub/LivecreatorchallengeDay4/FroggerClone/FroggerClone.uproject"  -IgnoreJunk]
+[2023.03.30-09.27.05:183][652]Warning: Starting HotReload took  0.1s.
+[2023.03.30-09.27.08:647][789]CompilerResultsLog: New page: Compilation - 30 Mar 2023, 11:27:08
+[2023.03.30-09.27.08:648][789]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\William\Documents\GitHub\LivecreatorchallengeDay4).
+[2023.03.30-09.27.08:648][789]CompilerResultsLog: Building FroggerCloneEditor...
+[2023.03.30-09.27.08:648][789]CompilerResultsLog: Using Visual Studio 2019 14.29.30143 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\VC\Tools\MSVC\14.29.30133) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2023.03.30-09.27.08:648][789]CompilerResultsLog: Building 3 actions with 12 processes...
+[2023.03.30-09.27.08:648][789]CompilerResultsLog:   [1/3] UE4Editor-FroggerClone-1732.lib
+[2023.03.30-09.27.08:648][789]CompilerResultsLog:      Creating library C:\Users\William\Documents\GitHub\LivecreatorchallengeDay4\FroggerClone\Intermediate\Build\Win64\UE4Editor\Development\FroggerClone\UE4Editor-FroggerClone-1732.lib and object C:\Users\William\Documents\GitHub\LivecreatorchallengeDay4\FroggerClone\Intermediate\Build\Win64\UE4Editor\Development\FroggerClone\UE4Editor-FroggerClone-1732.exp
+[2023.03.30-09.27.08:648][789]CompilerResultsLog:   [2/3] UE4Editor-FroggerClone-1732.dll
+[2023.03.30-09.27.08:648][789]CompilerResultsLog:      Creating library C:\Users\William\Documents\GitHub\LivecreatorchallengeDay4\FroggerClone\Intermediate\Build\Win64\UE4Editor\Development\FroggerClone\UE4Editor-FroggerClone-1732.suppressed.lib and object C:\Users\William\Documents\GitHub\LivecreatorchallengeDay4\FroggerClone\Intermediate\Build\Win64\UE4Editor\Development\FroggerClone\UE4Editor-FroggerClone-1732.suppressed.exp
+[2023.03.30-09.27.08:648][789]CompilerResultsLog:   [3/3] FroggerCloneEditor.target
+[2023.03.30-09.27.08:648][789]CompilerResultsLog: Total time in Parallel executor: 1.80 seconds
+[2023.03.30-09.27.08:648][789]CompilerResultsLog: Total execution time: 3.08 seconds
+[2023.03.30-09.27.08:648][789]LogMainFrame: MainFrame: Module compiling took 3.496 seconds
+[2023.03.30-09.27.08:685][789]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'FroggerClone' in 0.0003 seconds. Added 2 classes and 2 folders.
+[2023.03.30-09.27.08:692][789]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2023.03.30-09.27.08:769][789]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0109 seconds. Added 3824 classes and 930 folders.
+[2023.03.30-09.27.08:769][789]Display: HotReload took  3.7s.
+[2023.03.30-09.27.17:611][881]LogTemp: Repeating last play command: Selected Viewport
+[2023.03.30-09.27.17:617][881]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.03.30-09.27.17:617][881]PIE: New page: PIE session: ThirdPersonExampleMap (30 Mar 2023, 11:27:17)
+[2023.03.30-09.27.17:648][881]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2023.03.30-09.27.17:663][881]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014059s)
+[2023.03.30-09.27.17:664][881]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2023.03.30-09.27.17:664][881]LogPlayLevel: PIE: World Init took: (0.001563s)
+[2023.03.30-09.27.17:665][881]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.015893s)
+[2023.03.30-09.27.17:745][881]LogUObjectHash: Compacting FUObjectHashTables data took   4.42ms
+[2023.03.30-09.27.17:750][881]LogAudio: Display: Creating Audio Device:                 Id: 10, Scope: Unique, Realtime: True
+[2023.03.30-09.27.17:750][881]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.03.30-09.27.17:750][881]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.03.30-09.27.17:750][881]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.03.30-09.27.17:750][881]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.03.30-09.27.17:750][881]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.03.30-09.27.17:750][881]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.03.30-09.27.17:750][881]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.03.30-09.27.17:750][881]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.03.30-09.27.17:751][881]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.03.30-09.27.17:751][881]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.03.30-09.27.17:751][881]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.03.30-09.27.17:751][881]LogAudioMixer: Display: Initializing audio mixer.
+[2023.03.30-09.27.17:754][881]LogAudioMixer: Display: 0: FrontLeft
+[2023.03.30-09.27.17:754][881]LogAudioMixer: Display: 1: FrontRight
+[2023.03.30-09.27.17:823][881]LogAudioMixer: Display: Using Audio Device Headphones (Realtek(R) Audio)
+[2023.03.30-09.27.17:823][881]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.03.30-09.27.17:823][881]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.03.30-09.27.17:824][881]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.03.30-09.27.17:825][881]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2023.03.30-09.27.17:825][881]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2023.03.30-09.27.17:825][881]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2023.03.30-09.27.17:826][881]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2023.03.30-09.27.17:826][881]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2023.03.30-09.27.17:826][881]LogInit: FAudioDevice initialized.
+[2023.03.30-09.27.17:826][881]LogAudio: Display: Audio Device (ID: 10) registered with world 'ThirdPersonExampleMap'.
+[2023.03.30-09.27.17:846][881]LogLoad: Game class is 'FroggerCloneGameMode'
+[2023.03.30-09.27.17:848][881]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2023.03.30-10.27.17
+[2023.03.30-09.27.17:850][881]LogWorld: Bringing up level for play took: 0.002662
+[2023.03.30-09.27.17:850][881]LogOnline: OSS: Creating online subsystem instance for: :Context_20
+[2023.03.30-09.27.17:853][881]PIE: Server logged in
+[2023.03.30-09.27.17:854][881]PIE: Play in editor total start time 0.239 seconds.
+[2023.03.30-09.27.28:152][495]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.30-09.27.28:152][495]LogWorld: BeginTearingDown for /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2023.03.30-09.27.28:152][495]LogWorld: UWorld::CleanupWorld for ThirdPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2023.03.30-09.27.28:153][495]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.30-09.27.28:165][495]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.03.30-09.27.28:170][495]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.30-09.27.28:191][495]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.03.30-09.27.28:191][495]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.03.30-09.27.28:193][495]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.03.30-09.27.28:196][495]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.30-09.27.28:215][495]LogUObjectHash: Compacting FUObjectHashTables data took   2.97ms
+[2023.03.30-09.27.28:240][496]LogPlayLevel: Display: Destroying online subsystem :Context_20
+[2023.03.30-09.28.27:186][892]LogHotReload: New module detected: UE4Editor-FroggerClone-0010.dll
+[2023.03.30-09.28.28:211][896]LogHotReload: Starting Hot-Reload from IDE
+[2023.03.30-09.28.28:289][896]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'FroggerClone' in 0.0004 seconds. Added 2 classes and 2 folders.
+[2023.03.30-09.28.28:295][896]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2023.03.30-09.28.28:383][896]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0112 seconds. Added 3824 classes and 930 folders.
+[2023.03.30-09.28.28:390][896]Display: HotReload took  0.2s.
+[2023.03.30-09.28.48:352][955]LogHotReload: New module detected: UE4Editor-FroggerClone-0011.dll
+[2023.03.30-09.28.49:382][959]LogHotReload: Starting Hot-Reload from IDE
+[2023.03.30-09.28.49:461][959]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'FroggerClone' in 0.0003 seconds. Added 2 classes and 2 folders.
+[2023.03.30-09.28.49:468][959]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2023.03.30-09.28.49:567][959]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0128 seconds. Added 3824 classes and 930 folders.
+[2023.03.30-09.28.49:575][959]Display: HotReload took  0.2s.
+[2023.03.30-09.28.53:244][ 68]Candidate modules for hot reload:
+[2023.03.30-09.28.53:244][ 68]  FroggerClone
+[2023.03.30-09.28.53:245][ 68]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.27/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=FroggerClone,3417 FroggerCloneEditor Win64 Development -Project="C:/Users/William/Documents/GitHub/LivecreatorchallengeDay4/FroggerClone/FroggerClone.uproject" "C:/Users/William/Documents/GitHub/LivecreatorchallengeDay4/FroggerClone/FroggerClone.uproject"  -IgnoreJunk]
+[2023.03.30-09.28.53:251][ 68]Warning: Starting HotReload took  0.0s.
+[2023.03.30-09.28.56:272][168]CompilerResultsLog: New page: Compilation - 30 Mar 2023, 11:28:56
+[2023.03.30-09.28.56:272][168]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\William\Documents\GitHub\LivecreatorchallengeDay4).
+[2023.03.30-09.28.56:272][168]CompilerResultsLog: Building FroggerCloneEditor...
+[2023.03.30-09.28.56:272][168]CompilerResultsLog: Using Visual Studio 2019 14.29.30143 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\VC\Tools\MSVC\14.29.30133) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2023.03.30-09.28.56:272][168]CompilerResultsLog: Building 3 actions with 12 processes...
+[2023.03.30-09.28.56:272][168]CompilerResultsLog:   [1/3] UE4Editor-FroggerClone-3417.lib
+[2023.03.30-09.28.56:272][168]CompilerResultsLog:      Creating library C:\Users\William\Documents\GitHub\LivecreatorchallengeDay4\FroggerClone\Intermediate\Build\Win64\UE4Editor\Development\FroggerClone\UE4Editor-FroggerClone-3417.lib and object C:\Users\William\Documents\GitHub\LivecreatorchallengeDay4\FroggerClone\Intermediate\Build\Win64\UE4Editor\Development\FroggerClone\UE4Editor-FroggerClone-3417.exp
+[2023.03.30-09.28.56:272][168]CompilerResultsLog:   [2/3] UE4Editor-FroggerClone-3417.dll
+[2023.03.30-09.28.56:272][168]CompilerResultsLog:      Creating library C:\Users\William\Documents\GitHub\LivecreatorchallengeDay4\FroggerClone\Intermediate\Build\Win64\UE4Editor\Development\FroggerClone\UE4Editor-FroggerClone-3417.suppressed.lib and object C:\Users\William\Documents\GitHub\LivecreatorchallengeDay4\FroggerClone\Intermediate\Build\Win64\UE4Editor\Development\FroggerClone\UE4Editor-FroggerClone-3417.suppressed.exp
+[2023.03.30-09.28.56:272][168]CompilerResultsLog:   [3/3] FroggerCloneEditor.target
+[2023.03.30-09.28.56:272][168]CompilerResultsLog: Total time in Parallel executor: 1.67 seconds
+[2023.03.30-09.28.56:272][168]CompilerResultsLog: Total execution time: 2.79 seconds
+[2023.03.30-09.28.56:272][168]LogMainFrame: MainFrame: Module compiling took 3.032 seconds
+[2023.03.30-09.28.56:329][168]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'FroggerClone' in 0.0009 seconds. Added 2 classes and 2 folders.
+[2023.03.30-09.28.56:341][168]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2023.03.30-09.28.56:463][168]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0148 seconds. Added 3824 classes and 930 folders.
+[2023.03.30-09.28.56:464][168]Display: HotReload took  3.2s.
+[2023.03.30-09.28.59:025][251]LogTemp: Repeating last play command: Selected Viewport
+[2023.03.30-09.28.59:033][251]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.03.30-09.28.59:033][251]PIE: New page: PIE session: ThirdPersonExampleMap (30 Mar 2023, 11:28:59)
+[2023.03.30-09.28.59:034][251]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2023.03.30-09.28.59:058][251]LogPlayLevel: PIE: StaticDuplicateObject took: (0.024889s)
+[2023.03.30-09.28.59:061][251]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2023.03.30-09.28.59:061][251]LogPlayLevel: PIE: World Init took: (0.002298s)
+[2023.03.30-09.28.59:061][251]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.027624s)
+[2023.03.30-09.28.59:239][251]LogUObjectHash: Compacting FUObjectHashTables data took   9.42ms
+[2023.03.30-09.28.59:245][251]LogAudio: Display: Creating Audio Device:                 Id: 11, Scope: Unique, Realtime: True
+[2023.03.30-09.28.59:245][251]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.03.30-09.28.59:245][251]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.03.30-09.28.59:246][251]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.03.30-09.28.59:246][251]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.03.30-09.28.59:246][251]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.03.30-09.28.59:246][251]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.03.30-09.28.59:246][251]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.03.30-09.28.59:246][251]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.03.30-09.28.59:246][251]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.03.30-09.28.59:246][251]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.03.30-09.28.59:246][251]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.03.30-09.28.59:246][251]LogAudioMixer: Display: Initializing audio mixer.
+[2023.03.30-09.28.59:249][251]LogAudioMixer: Display: 0: FrontLeft
+[2023.03.30-09.28.59:249][251]LogAudioMixer: Display: 1: FrontRight
+[2023.03.30-09.28.59:315][251]LogAudioMixer: Display: Using Audio Device Headphones (Realtek(R) Audio)
+[2023.03.30-09.28.59:315][251]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.03.30-09.28.59:315][251]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.03.30-09.28.59:315][251]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.03.30-09.28.59:316][251]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2023.03.30-09.28.59:316][251]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2023.03.30-09.28.59:316][251]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2023.03.30-09.28.59:319][251]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2023.03.30-09.28.59:319][251]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2023.03.30-09.28.59:319][251]LogInit: FAudioDevice initialized.
+[2023.03.30-09.28.59:319][251]LogAudio: Display: Audio Device (ID: 11) registered with world 'ThirdPersonExampleMap'.
+[2023.03.30-09.28.59:347][251]LogLoad: Game class is 'FroggerCloneGameMode'
+[2023.03.30-09.28.59:349][251]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2023.03.30-10.28.59
+[2023.03.30-09.28.59:350][251]LogWorld: Bringing up level for play took: 0.002024
+[2023.03.30-09.28.59:350][251]LogOnline: OSS: Creating online subsystem instance for: :Context_21
+[2023.03.30-09.28.59:353][251]PIE: Server logged in
+[2023.03.30-09.28.59:354][251]PIE: Play in editor total start time 0.323 seconds.
+[2023.03.30-09.29.17:922][350]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.30-09.29.17:922][350]LogWorld: BeginTearingDown for /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2023.03.30-09.29.17:922][350]LogWorld: UWorld::CleanupWorld for ThirdPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2023.03.30-09.29.17:922][350]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.30-09.29.17:932][350]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.03.30-09.29.17:937][350]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.30-09.29.17:960][350]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.30-09.29.17:960][350]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.03.30-09.29.17:962][350]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.03.30-09.29.17:975][350]LogUObjectHash: Compacting FUObjectHashTables data took   3.42ms
+[2023.03.30-09.29.17:999][351]LogPlayLevel: Display: Destroying online subsystem :Context_21
+[2023.03.30-09.33.45:313][243]LogHotReload: New module detected: UE4Editor-FroggerClone-0015.dll
+[2023.03.30-09.33.47:225][250]LogHotReload: Starting Hot-Reload from IDE
+[2023.03.30-09.33.47:713][250]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'FroggerClone' in 0.0072 seconds. Added 2 classes and 2 folders.
+[2023.03.30-09.33.47:739][250]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2023.03.30-09.33.48:046][250]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0256 seconds. Added 3824 classes and 930 folders.
+[2023.03.30-09.33.48:062][250]Display: HotReload took  0.8s.
+[2023.03.30-09.33.53:098][354]Candidate modules for hot reload:
+[2023.03.30-09.33.53:098][354]  FroggerClone
+[2023.03.30-09.33.53:098][354]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.27/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=FroggerClone,4985 FroggerCloneEditor Win64 Development -Project="C:/Users/William/Documents/GitHub/LivecreatorchallengeDay4/FroggerClone/FroggerClone.uproject" "C:/Users/William/Documents/GitHub/LivecreatorchallengeDay4/FroggerClone/FroggerClone.uproject"  -IgnoreJunk]
+[2023.03.30-09.33.53:103][354]Warning: Starting HotReload took  0.0s.
+[2023.03.30-09.33.56:270][458]CompilerResultsLog: New page: Compilation - 30 Mar 2023, 11:33:56
+[2023.03.30-09.33.56:271][458]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\William\Documents\GitHub\LivecreatorchallengeDay4).
+[2023.03.30-09.33.56:272][458]CompilerResultsLog: Building FroggerCloneEditor...
+[2023.03.30-09.33.56:272][458]CompilerResultsLog: Using Visual Studio 2019 14.29.30143 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\VC\Tools\MSVC\14.29.30133) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2023.03.30-09.33.56:272][458]CompilerResultsLog: Building 3 actions with 12 processes...
+[2023.03.30-09.33.56:272][458]CompilerResultsLog:   [1/3] UE4Editor-FroggerClone-4985.lib
+[2023.03.30-09.33.56:272][458]CompilerResultsLog:      Creating library C:\Users\William\Documents\GitHub\LivecreatorchallengeDay4\FroggerClone\Intermediate\Build\Win64\UE4Editor\Development\FroggerClone\UE4Editor-FroggerClone-4985.lib and object C:\Users\William\Documents\GitHub\LivecreatorchallengeDay4\FroggerClone\Intermediate\Build\Win64\UE4Editor\Development\FroggerClone\UE4Editor-FroggerClone-4985.exp
+[2023.03.30-09.33.56:272][458]CompilerResultsLog:   [2/3] UE4Editor-FroggerClone-4985.dll
+[2023.03.30-09.33.56:272][458]CompilerResultsLog:      Creating library C:\Users\William\Documents\GitHub\LivecreatorchallengeDay4\FroggerClone\Intermediate\Build\Win64\UE4Editor\Development\FroggerClone\UE4Editor-FroggerClone-4985.suppressed.lib and object C:\Users\William\Documents\GitHub\LivecreatorchallengeDay4\FroggerClone\Intermediate\Build\Win64\UE4Editor\Development\FroggerClone\UE4Editor-FroggerClone-4985.suppressed.exp
+[2023.03.30-09.33.56:272][458]CompilerResultsLog:   [3/3] FroggerCloneEditor.target
+[2023.03.30-09.33.56:272][458]CompilerResultsLog: Total time in Parallel executor: 1.76 seconds
+[2023.03.30-09.33.56:272][458]CompilerResultsLog: Total execution time: 3.02 seconds
+[2023.03.30-09.33.56:272][458]LogMainFrame: MainFrame: Module compiling took 3.181 seconds
+[2023.03.30-09.33.56:339][458]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'FroggerClone' in 0.0004 seconds. Added 2 classes and 2 folders.
+[2023.03.30-09.33.56:349][458]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2023.03.30-09.33.56:451][458]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0111 seconds. Added 3824 classes and 930 folders.
+[2023.03.30-09.33.56:452][458]Display: HotReload took  3.4s.
+[2023.03.30-09.33.58:091][532]LogTemp: Repeating last play command: Selected Viewport
+[2023.03.30-09.33.58:100][532]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.03.30-09.33.58:101][532]PIE: New page: PIE session: ThirdPersonExampleMap (30 Mar 2023, 11:33:58)
+[2023.03.30-09.33.58:101][532]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2023.03.30-09.33.58:126][532]LogPlayLevel: PIE: StaticDuplicateObject took: (0.025120s)
+[2023.03.30-09.33.58:130][532]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2023.03.30-09.33.58:130][532]LogPlayLevel: PIE: World Init took: (0.004213s)
+[2023.03.30-09.33.58:130][532]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.029854s)
+[2023.03.30-09.33.58:365][532]LogUObjectHash: Compacting FUObjectHashTables data took   6.74ms
+[2023.03.30-09.33.58:373][532]LogAudio: Display: Creating Audio Device:                 Id: 12, Scope: Unique, Realtime: True
+[2023.03.30-09.33.58:373][532]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.03.30-09.33.58:373][532]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.03.30-09.33.58:373][532]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.03.30-09.33.58:373][532]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.03.30-09.33.58:373][532]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.03.30-09.33.58:373][532]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.03.30-09.33.58:373][532]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.03.30-09.33.58:373][532]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.03.30-09.33.58:374][532]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.03.30-09.33.58:374][532]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.03.30-09.33.58:374][532]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.03.30-09.33.58:374][532]LogAudioMixer: Display: Initializing audio mixer.
+[2023.03.30-09.33.58:377][532]LogAudioMixer: Display: 0: FrontLeft
+[2023.03.30-09.33.58:377][532]LogAudioMixer: Display: 1: FrontRight
+[2023.03.30-09.33.58:450][532]LogAudioMixer: Display: Using Audio Device Headphones (Realtek(R) Audio)
+[2023.03.30-09.33.58:454][532]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.03.30-09.33.58:454][532]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.03.30-09.33.58:454][532]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.03.30-09.33.58:456][532]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2023.03.30-09.33.58:456][532]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2023.03.30-09.33.58:456][532]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2023.03.30-09.33.58:459][532]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2023.03.30-09.33.58:459][532]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2023.03.30-09.33.58:459][532]LogInit: FAudioDevice initialized.
+[2023.03.30-09.33.58:459][532]LogAudio: Display: Audio Device (ID: 12) registered with world 'ThirdPersonExampleMap'.
+[2023.03.30-09.33.58:494][532]LogLoad: Game class is 'FroggerCloneGameMode'
+[2023.03.30-09.33.58:498][532]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2023.03.30-10.33.58
+[2023.03.30-09.33.58:498][532]LogWorld: Bringing up level for play took: 0.003751
+[2023.03.30-09.33.58:498][532]LogOnline: OSS: Creating online subsystem instance for: :Context_22
+[2023.03.30-09.33.58:504][532]PIE: Server logged in
+[2023.03.30-09.33.58:505][532]PIE: Play in editor total start time 0.408 seconds.
+[2023.03.30-09.34.01:772][719]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.30-09.34.01:772][719]LogWorld: BeginTearingDown for /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2023.03.30-09.34.01:772][719]LogWorld: UWorld::CleanupWorld for ThirdPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2023.03.30-09.34.01:772][719]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.30-09.34.01:791][719]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.03.30-09.34.01:797][719]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.30-09.34.01:824][719]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.03.30-09.34.01:832][719]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.03.30-09.34.01:835][719]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.03.30-09.34.01:838][719]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.30-09.34.01:893][719]LogUObjectHash: Compacting FUObjectHashTables data took   8.50ms
+[2023.03.30-09.34.01:931][720]LogPlayLevel: Display: Destroying online subsystem :Context_22
+[2023.03.30-09.41.07:016][156]LogHotReload: New module detected: UE4Editor-FroggerClone-0019.dll
+[2023.03.30-09.41.08:514][162]LogHotReload: Starting Hot-Reload from IDE
+[2023.03.30-09.41.08:860][162]LogClass: Could not find existing class FroggerCloneCharacter in package /Script/FroggerClone for HotReload, assuming new class
+[2023.03.30-09.41.08:862][162]LogClass: Function TimerEnd is new.
+[2023.03.30-09.41.08:913][162]LogHotReload: Re-instancing FroggerCloneCharacter after hot-reload.
+[2023.03.30-09.41.09:246][162]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'FroggerClone' in 0.0016 seconds. Added 2 classes and 2 folders.
+[2023.03.30-09.41.09:269][162]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2023.03.30-09.41.09:487][162]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0227 seconds. Added 3824 classes and 930 folders.
+[2023.03.30-09.41.09:507][162]Display: HotReload took  1.0s.
+[2023.03.30-09.41.11:816][234]Candidate modules for hot reload:
+[2023.03.30-09.41.11:816][234]  FroggerClone
+[2023.03.30-09.41.11:817][234]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.27/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=FroggerClone,4577 FroggerCloneEditor Win64 Development -Project="C:/Users/William/Documents/GitHub/LivecreatorchallengeDay4/FroggerClone/FroggerClone.uproject" "C:/Users/William/Documents/GitHub/LivecreatorchallengeDay4/FroggerClone/FroggerClone.uproject"  -IgnoreJunk]
+[2023.03.30-09.41.11:821][234]Warning: Starting HotReload took  0.0s.
+[2023.03.30-09.41.15:749][425]CompilerResultsLog: New page: Compilation - 30 Mar 2023, 11:41:15
+[2023.03.30-09.41.15:752][425]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\William\Documents\GitHub\LivecreatorchallengeDay4).
+[2023.03.30-09.41.15:752][425]CompilerResultsLog: Building FroggerCloneEditor...
+[2023.03.30-09.41.15:752][425]CompilerResultsLog: Using Visual Studio 2019 14.29.30143 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\VC\Tools\MSVC\14.29.30133) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2023.03.30-09.41.15:752][425]CompilerResultsLog: Building 3 actions with 12 processes...
+[2023.03.30-09.41.15:752][425]CompilerResultsLog:   [1/3] UE4Editor-FroggerClone-4577.lib
+[2023.03.30-09.41.15:752][425]CompilerResultsLog:      Creating library C:\Users\William\Documents\GitHub\LivecreatorchallengeDay4\FroggerClone\Intermediate\Build\Win64\UE4Editor\Development\FroggerClone\UE4Editor-FroggerClone-4577.lib and object C:\Users\William\Documents\GitHub\LivecreatorchallengeDay4\FroggerClone\Intermediate\Build\Win64\UE4Editor\Development\FroggerClone\UE4Editor-FroggerClone-4577.exp
+[2023.03.30-09.41.15:752][425]CompilerResultsLog:   [2/3] UE4Editor-FroggerClone-4577.dll
+[2023.03.30-09.41.15:752][425]CompilerResultsLog:      Creating library C:\Users\William\Documents\GitHub\LivecreatorchallengeDay4\FroggerClone\Intermediate\Build\Win64\UE4Editor\Development\FroggerClone\UE4Editor-FroggerClone-4577.suppressed.lib and object C:\Users\William\Documents\GitHub\LivecreatorchallengeDay4\FroggerClone\Intermediate\Build\Win64\UE4Editor\Development\FroggerClone\UE4Editor-FroggerClone-4577.suppressed.exp
+[2023.03.30-09.41.15:752][425]CompilerResultsLog:   [3/3] FroggerCloneEditor.target
+[2023.03.30-09.41.15:752][425]CompilerResultsLog: Total time in Parallel executor: 2.53 seconds
+[2023.03.30-09.41.15:752][425]CompilerResultsLog: Total execution time: 3.75 seconds
+[2023.03.30-09.41.15:753][425]LogMainFrame: MainFrame: Module compiling took 3.942 seconds
+[2023.03.30-09.41.15:821][425]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'FroggerClone' in 0.0004 seconds. Added 2 classes and 2 folders.
+[2023.03.30-09.41.15:834][425]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
+[2023.03.30-09.41.15:963][425]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0159 seconds. Added 3824 classes and 930 folders.
+[2023.03.30-09.41.15:963][425]Display: HotReload took  4.2s.
+[2023.03.30-09.41.19:001][460]LogTemp: Repeating last play command: Selected Viewport
+[2023.03.30-09.41.19:025][460]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.03.30-09.41.19:025][460]PIE: New page: PIE session: ThirdPersonExampleMap (30 Mar 2023, 11:41:19)
+[2023.03.30-09.41.19:030][460]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2023.03.30-09.41.19:135][460]LogPlayLevel: PIE: StaticDuplicateObject took: (0.102330s)
+[2023.03.30-09.41.19:171][460]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2023.03.30-09.41.19:178][460]LogPlayLevel: PIE: World Init took: (0.043877s)
+[2023.03.30-09.41.19:178][460]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.148738s)
+[2023.03.30-09.41.19:392][460]LogUObjectHash: Compacting FUObjectHashTables data took  10.82ms
+[2023.03.30-09.41.19:406][460]LogAudio: Display: Creating Audio Device:                 Id: 13, Scope: Unique, Realtime: True
+[2023.03.30-09.41.19:407][460]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.03.30-09.41.19:407][460]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.03.30-09.41.19:408][460]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.03.30-09.41.19:408][460]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.03.30-09.41.19:408][460]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.03.30-09.41.19:408][460]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.03.30-09.41.19:408][460]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.03.30-09.41.19:408][460]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.03.30-09.41.19:411][460]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.03.30-09.41.19:411][460]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.03.30-09.41.19:411][460]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.03.30-09.41.19:411][460]LogAudioMixer: Display: Initializing audio mixer.
+[2023.03.30-09.41.19:417][460]LogAudioMixer: Display: 0: FrontLeft
+[2023.03.30-09.41.19:417][460]LogAudioMixer: Display: 1: FrontRight
+[2023.03.30-09.41.19:498][460]LogAudioMixer: Display: Using Audio Device Headphones (Realtek(R) Audio)
+[2023.03.30-09.41.19:503][460]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.03.30-09.41.19:504][460]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.03.30-09.41.19:504][460]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.03.30-09.41.19:507][460]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2023.03.30-09.41.19:507][460]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2023.03.30-09.41.19:507][460]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2023.03.30-09.41.19:512][460]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2023.03.30-09.41.19:512][460]LogInit: FAudioDevice initialized.
+[2023.03.30-09.41.19:512][460]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2023.03.30-09.41.19:512][460]LogAudio: Display: Audio Device (ID: 13) registered with world 'ThirdPersonExampleMap'.
+[2023.03.30-09.41.19:564][460]LogLoad: Game class is 'FroggerCloneGameMode'
+[2023.03.30-09.41.19:579][460]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2023.03.30-10.41.19
+[2023.03.30-09.41.19:582][460]LogWorld: Bringing up level for play took: 0.011656
+[2023.03.30-09.41.19:586][460]LogOnline: OSS: Creating online subsystem instance for: :Context_23
+[2023.03.30-09.41.19:612][460]PIE: Server logged in
+[2023.03.30-09.41.19:613][460]PIE: Play in editor total start time 0.597 seconds.
+[2023.03.30-09.41.27:075][901]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.30-09.41.27:076][901]LogWorld: BeginTearingDown for /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2023.03.30-09.41.27:082][901]LogWorld: UWorld::CleanupWorld for ThirdPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2023.03.30-09.41.27:084][901]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.30-09.41.27:116][901]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.03.30-09.41.27:127][901]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.30-09.41.27:163][901]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.30-09.41.27:171][901]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.03.30-09.41.27:178][901]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.03.30-09.41.27:271][901]LogUObjectHash: Compacting FUObjectHashTables data took   4.93ms
+[2023.03.30-09.41.27:312][902]LogPlayLevel: Display: Destroying online subsystem :Context_23
+[2023.03.30-09.46.40:492][965]LogHotReload: New module detected: UE4Editor-FroggerClone-0021.dll
+[2023.03.30-09.46.41:361][969]LogHotReload: Starting Hot-Reload from IDE
+[2023.03.30-09.46.41:591][969]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'FroggerClone' in 0.0026 seconds. Added 2 classes and 2 folders.
+[2023.03.30-09.46.41:615][969]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
+[2023.03.30-09.46.41:828][969]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0222 seconds. Added 3824 classes and 930 folders.
+[2023.03.30-09.46.41:844][969]Display: HotReload took  0.5s.
+[2023.03.30-09.46.47:779][ 61]Candidate modules for hot reload:
+[2023.03.30-09.46.47:779][ 61]  FroggerClone
+[2023.03.30-09.46.47:779][ 61]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.27/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=FroggerClone,8515 FroggerCloneEditor Win64 Development -Project="C:/Users/William/Documents/GitHub/LivecreatorchallengeDay4/FroggerClone/FroggerClone.uproject" "C:/Users/William/Documents/GitHub/LivecreatorchallengeDay4/FroggerClone/FroggerClone.uproject"  -IgnoreJunk]
+[2023.03.30-09.46.47:785][ 61]Warning: Starting HotReload took  0.0s.
+[2023.03.30-09.46.50:933][225]CompilerResultsLog: New page: Compilation - 30 Mar 2023, 11:46:50
+[2023.03.30-09.46.50:936][225]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\William\Documents\GitHub\LivecreatorchallengeDay4).
+[2023.03.30-09.46.50:936][225]CompilerResultsLog: Building FroggerCloneEditor...
+[2023.03.30-09.46.50:936][225]CompilerResultsLog: Using Visual Studio 2019 14.29.30143 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\VC\Tools\MSVC\14.29.30133) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2023.03.30-09.46.50:936][225]CompilerResultsLog: Building 3 actions with 12 processes...
+[2023.03.30-09.46.50:936][225]CompilerResultsLog:   [1/3] UE4Editor-FroggerClone-8515.lib
+[2023.03.30-09.46.50:936][225]CompilerResultsLog:      Creating library C:\Users\William\Documents\GitHub\LivecreatorchallengeDay4\FroggerClone\Intermediate\Build\Win64\UE4Editor\Development\FroggerClone\UE4Editor-FroggerClone-8515.lib and object C:\Users\William\Documents\GitHub\LivecreatorchallengeDay4\FroggerClone\Intermediate\Build\Win64\UE4Editor\Development\FroggerClone\UE4Editor-FroggerClone-8515.exp
+[2023.03.30-09.46.50:936][225]CompilerResultsLog:   [2/3] UE4Editor-FroggerClone-8515.dll
+[2023.03.30-09.46.50:936][225]CompilerResultsLog:      Creating library C:\Users\William\Documents\GitHub\LivecreatorchallengeDay4\FroggerClone\Intermediate\Build\Win64\UE4Editor\Development\FroggerClone\UE4Editor-FroggerClone-8515.suppressed.lib and object C:\Users\William\Documents\GitHub\LivecreatorchallengeDay4\FroggerClone\Intermediate\Build\Win64\UE4Editor\Development\FroggerClone\UE4Editor-FroggerClone-8515.suppressed.exp
+[2023.03.30-09.46.50:936][225]CompilerResultsLog:   [3/3] FroggerCloneEditor.target
+[2023.03.30-09.46.50:936][225]CompilerResultsLog: Total time in Parallel executor: 1.80 seconds
+[2023.03.30-09.46.50:936][225]CompilerResultsLog: Total execution time: 3.01 seconds
+[2023.03.30-09.46.50:937][225]LogMainFrame: MainFrame: Module compiling took 3.164 seconds
+[2023.03.30-09.46.50:988][225]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'FroggerClone' in 0.0004 seconds. Added 2 classes and 2 folders.
+[2023.03.30-09.46.50:997][225]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
+[2023.03.30-09.46.51:105][225]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0109 seconds. Added 3824 classes and 930 folders.
+[2023.03.30-09.46.51:105][225]Display: HotReload took  3.4s.
+[2023.03.30-09.46.51:969][260]LogTemp: Repeating last play command: Selected Viewport
+[2023.03.30-09.46.51:998][260]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.03.30-09.46.51:999][260]PIE: New page: PIE session: ThirdPersonExampleMap (30 Mar 2023, 11:46:51)
+[2023.03.30-09.46.52:003][260]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2023.03.30-09.46.52:086][260]LogPlayLevel: PIE: StaticDuplicateObject took: (0.079805s)
+[2023.03.30-09.46.52:125][260]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2023.03.30-09.46.52:139][260]LogPlayLevel: PIE: World Init took: (0.052088s)
+[2023.03.30-09.46.52:139][260]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.136149s)
+[2023.03.30-09.46.52:381][260]LogUObjectHash: Compacting FUObjectHashTables data took   8.35ms
+[2023.03.30-09.46.52:392][260]LogAudio: Display: Creating Audio Device:                 Id: 14, Scope: Unique, Realtime: True
+[2023.03.30-09.46.52:393][260]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.03.30-09.46.52:393][260]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.03.30-09.46.52:393][260]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.03.30-09.46.52:393][260]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.03.30-09.46.52:393][260]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.03.30-09.46.52:393][260]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.03.30-09.46.52:394][260]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.03.30-09.46.52:394][260]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.03.30-09.46.52:396][260]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.03.30-09.46.52:396][260]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.03.30-09.46.52:396][260]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.03.30-09.46.52:396][260]LogAudioMixer: Display: Initializing audio mixer.
+[2023.03.30-09.46.52:402][260]LogAudioMixer: Display: 0: FrontLeft
+[2023.03.30-09.46.52:402][260]LogAudioMixer: Display: 1: FrontRight
+[2023.03.30-09.46.52:484][260]LogAudioMixer: Display: Using Audio Device Headphones (Realtek(R) Audio)
+[2023.03.30-09.46.52:489][260]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.03.30-09.46.52:490][260]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.03.30-09.46.52:490][260]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.03.30-09.46.52:491][260]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2023.03.30-09.46.52:491][260]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2023.03.30-09.46.52:493][260]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2023.03.30-09.46.52:497][260]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2023.03.30-09.46.52:497][260]LogInit: FAudioDevice initialized.
+[2023.03.30-09.46.52:497][260]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2023.03.30-09.46.52:497][260]LogAudio: Display: Audio Device (ID: 14) registered with world 'ThirdPersonExampleMap'.
+[2023.03.30-09.46.52:545][260]LogLoad: Game class is 'FroggerCloneGameMode'
+[2023.03.30-09.46.52:583][260]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2023.03.30-10.46.52
+[2023.03.30-09.46.52:585][260]LogWorld: Bringing up level for play took: 0.034604
+[2023.03.30-09.46.52:589][260]LogOnline: OSS: Creating online subsystem instance for: :Context_24
+[2023.03.30-09.46.52:612][260]PIE: Server logged in
+[2023.03.30-09.46.52:613][260]PIE: Play in editor total start time 0.625 seconds.
+[2023.03.30-09.47.28:194][387]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.30-09.47.28:194][387]LogWorld: BeginTearingDown for /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2023.03.30-09.47.28:197][387]LogWorld: UWorld::CleanupWorld for ThirdPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2023.03.30-09.47.28:199][387]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.30-09.47.28:225][387]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.03.30-09.47.28:232][387]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.30-09.47.28:261][387]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.30-09.47.28:264][387]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.03.30-09.47.28:266][387]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.03.30-09.47.28:314][387]LogUObjectHash: Compacting FUObjectHashTables data took   4.56ms
+[2023.03.30-09.47.28:345][388]LogPlayLevel: Display: Destroying online subsystem :Context_24
+[2023.03.30-09.47.53:893][565]LogHotReload: New module detected: UE4Editor-FroggerClone-0023.dll
+[2023.03.30-09.47.54:935][569]LogHotReload: Starting Hot-Reload from IDE
+[2023.03.30-09.47.55:052][569]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'FroggerClone' in 0.0005 seconds. Added 2 classes and 2 folders.
+[2023.03.30-09.47.55:063][569]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
+[2023.03.30-09.47.55:168][569]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0121 seconds. Added 3824 classes and 930 folders.
+[2023.03.30-09.47.55:175][569]Display: HotReload took  0.2s.
+[2023.03.30-09.47.57:699][617]LogTemp: Repeating last play command: Selected Viewport
+[2023.03.30-09.47.57:705][617]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.03.30-09.47.57:706][617]PIE: New page: PIE session: ThirdPersonExampleMap (30 Mar 2023, 11:47:57)
+[2023.03.30-09.47.57:706][617]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2023.03.30-09.47.57:719][617]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012594s)
+[2023.03.30-09.47.57:720][617]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2023.03.30-09.47.57:721][617]LogPlayLevel: PIE: World Init took: (0.001651s)
+[2023.03.30-09.47.57:721][617]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.015031s)
+[2023.03.30-09.47.57:796][617]LogUObjectHash: Compacting FUObjectHashTables data took   4.90ms
+[2023.03.30-09.47.57:801][617]LogAudio: Display: Creating Audio Device:                 Id: 15, Scope: Unique, Realtime: True
+[2023.03.30-09.47.57:801][617]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.03.30-09.47.57:801][617]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.03.30-09.47.57:801][617]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.03.30-09.47.57:801][617]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.03.30-09.47.57:801][617]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.03.30-09.47.57:801][617]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.03.30-09.47.57:801][617]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.03.30-09.47.57:801][617]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.03.30-09.47.57:802][617]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.03.30-09.47.57:802][617]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.03.30-09.47.57:802][617]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.03.30-09.47.57:802][617]LogAudioMixer: Display: Initializing audio mixer.
+[2023.03.30-09.47.57:804][617]LogAudioMixer: Display: 0: FrontLeft
+[2023.03.30-09.47.57:805][617]LogAudioMixer: Display: 1: FrontRight
+[2023.03.30-09.47.57:867][617]LogAudioMixer: Display: Using Audio Device Headphones (Realtek(R) Audio)
+[2023.03.30-09.47.57:868][617]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.03.30-09.47.57:868][617]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.03.30-09.47.57:868][617]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.03.30-09.47.57:869][617]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2023.03.30-09.47.57:869][617]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2023.03.30-09.47.57:869][617]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2023.03.30-09.47.57:871][617]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2023.03.30-09.47.57:871][617]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2023.03.30-09.47.57:871][617]LogInit: FAudioDevice initialized.
+[2023.03.30-09.47.57:871][617]LogAudio: Display: Audio Device (ID: 15) registered with world 'ThirdPersonExampleMap'.
+[2023.03.30-09.47.57:897][617]LogLoad: Game class is 'FroggerCloneGameMode'
+[2023.03.30-09.47.57:899][617]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2023.03.30-10.47.57
+[2023.03.30-09.47.57:899][617]LogWorld: Bringing up level for play took: 0.001803
+[2023.03.30-09.47.57:899][617]LogOnline: OSS: Creating online subsystem instance for: :Context_25
+[2023.03.30-09.47.57:902][617]PIE: Server logged in
+[2023.03.30-09.47.57:902][617]PIE: Play in editor total start time 0.2 seconds.
+[2023.03.30-09.48.34:141][783]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.30-09.48.34:141][783]LogWorld: BeginTearingDown for /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2023.03.30-09.48.34:142][783]LogWorld: UWorld::CleanupWorld for ThirdPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2023.03.30-09.48.34:142][783]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.30-09.48.34:174][783]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.03.30-09.48.34:182][783]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.30-09.48.34:208][783]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.30-09.48.34:208][783]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.03.30-09.48.34:210][783]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.03.30-09.48.34:219][783]LogUObjectHash: Compacting FUObjectHashTables data took   3.98ms
+[2023.03.30-09.48.34:248][784]LogPlayLevel: Display: Destroying online subsystem :Context_25
+[2023.03.30-09.53.31:009][577]LogHotReload: New module detected: UE4Editor-FroggerClone-0025.dll
+[2023.03.30-09.53.31:567][580]LogHotReload: Starting Hot-Reload from IDE
+[2023.03.30-09.53.31:902][580]LogClass: Could not find existing class FroggerCloneCharacter in package /Script/FroggerClone for HotReload, assuming new class
+[2023.03.30-09.53.31:903][580]LogClass: Function TimerEnd is new.
+[2023.03.30-09.53.31:973][580]LogHotReload: Re-instancing FroggerCloneCharacter after hot-reload.
+[2023.03.30-09.53.32:349][580]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'FroggerClone' in 0.0035 seconds. Added 2 classes and 2 folders.
+[2023.03.30-09.53.32:366][580]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2023.03.30-09.53.32:565][580]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0169 seconds. Added 3824 classes and 930 folders.
+[2023.03.30-09.53.32:586][580]Display: HotReload took  1.0s.
+[2023.03.30-09.53.36:589][651]LogTemp: Repeating last play command: Selected Viewport
+[2023.03.30-09.53.36:640][651]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.03.30-09.53.36:662][651]PIE: New page: PIE session: ThirdPersonExampleMap (30 Mar 2023, 11:53:36)
+[2023.03.30-09.53.36:671][651]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2023.03.30-09.53.36:742][651]LogPlayLevel: PIE: StaticDuplicateObject took: (0.070341s)
+[2023.03.30-09.53.36:769][651]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2023.03.30-09.53.36:774][651]LogPlayLevel: PIE: World Init took: (0.031534s)
+[2023.03.30-09.53.36:774][651]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.104548s)
+[2023.03.30-09.53.36:897][651]LogUObjectHash: Compacting FUObjectHashTables data took   6.36ms
+[2023.03.30-09.53.36:906][651]LogAudio: Display: Creating Audio Device:                 Id: 16, Scope: Unique, Realtime: True
+[2023.03.30-09.53.36:906][651]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.03.30-09.53.36:906][651]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.03.30-09.53.36:906][651]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.03.30-09.53.36:906][651]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.03.30-09.53.36:906][651]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.03.30-09.53.36:906][651]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.03.30-09.53.36:906][651]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.03.30-09.53.36:907][651]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.03.30-09.53.36:908][651]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.03.30-09.53.36:908][651]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.03.30-09.53.36:908][651]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.03.30-09.53.36:908][651]LogAudioMixer: Display: Initializing audio mixer.
+[2023.03.30-09.53.36:915][651]LogAudioMixer: Display: 0: FrontLeft
+[2023.03.30-09.53.36:915][651]LogAudioMixer: Display: 1: FrontRight
+[2023.03.30-09.53.36:985][651]LogAudioMixer: Display: Using Audio Device Headphones (Realtek(R) Audio)
+[2023.03.30-09.53.36:987][651]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.03.30-09.53.36:988][651]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.03.30-09.53.36:988][651]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.03.30-09.53.36:991][651]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2023.03.30-09.53.36:991][651]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2023.03.30-09.53.36:992][651]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2023.03.30-09.53.37:025][651]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2023.03.30-09.53.37:025][651]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2023.03.30-09.53.37:025][651]LogInit: FAudioDevice initialized.
+[2023.03.30-09.53.37:025][651]LogAudio: Display: Audio Device (ID: 16) registered with world 'ThirdPersonExampleMap'.
+[2023.03.30-09.53.37:056][651]LogLoad: Game class is 'FroggerCloneGameMode'
+[2023.03.30-09.53.37:063][651]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2023.03.30-10.53.37
+[2023.03.30-09.53.37:064][651]LogWorld: Bringing up level for play took: 0.004684
+[2023.03.30-09.53.37:068][651]LogOnline: OSS: Creating online subsystem instance for: :Context_26
+[2023.03.30-09.53.37:081][651]PIE: Server logged in
+[2023.03.30-09.53.37:082][651]PIE: Play in editor total start time 0.462 seconds.
+[2023.03.30-09.53.57:743][886]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.30-09.53.57:743][886]LogWorld: BeginTearingDown for /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2023.03.30-09.53.57:746][886]LogWorld: UWorld::CleanupWorld for ThirdPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2023.03.30-09.53.57:747][886]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.30-09.53.57:771][886]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.03.30-09.53.57:777][886]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.30-09.53.57:813][886]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.30-09.53.57:816][886]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.03.30-09.53.57:827][886]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.03.30-09.53.57:869][886]LogUObjectHash: Compacting FUObjectHashTables data took   4.16ms
+[2023.03.30-09.53.57:896][887]LogPlayLevel: Display: Destroying online subsystem :Context_26
+[2023.03.30-09.56.26:292][539]LogHotReload: New module detected: UE4Editor-FroggerClone-0027.dll
+[2023.03.30-09.56.27:324][543]LogHotReload: Starting Hot-Reload from IDE
+[2023.03.30-09.56.27:404][543]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'FroggerClone' in 0.0003 seconds. Added 2 classes and 2 folders.
+[2023.03.30-09.56.27:412][543]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
+[2023.03.30-09.56.27:506][543]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0110 seconds. Added 3824 classes and 930 folders.
+[2023.03.30-09.56.27:512][543]Display: HotReload took  0.2s.
+[2023.03.30-09.56.32:704][630]LogTemp: Repeating last play command: Selected Viewport
+[2023.03.30-09.56.32:713][630]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.03.30-09.56.32:713][630]PIE: New page: PIE session: ThirdPersonExampleMap (30 Mar 2023, 11:56:32)
+[2023.03.30-09.56.32:713][630]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2023.03.30-09.56.32:727][630]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014428s)
+[2023.03.30-09.56.32:728][630]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2023.03.30-09.56.32:729][630]LogPlayLevel: PIE: World Init took: (0.002471s)
+[2023.03.30-09.56.32:729][630]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.017361s)
+[2023.03.30-09.56.32:820][630]LogUObjectHash: Compacting FUObjectHashTables data took   6.25ms
+[2023.03.30-09.56.32:823][630]LogAudio: Display: Creating Audio Device:                 Id: 17, Scope: Unique, Realtime: True
+[2023.03.30-09.56.32:823][630]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.03.30-09.56.32:823][630]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.03.30-09.56.32:823][630]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.03.30-09.56.32:823][630]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.03.30-09.56.32:823][630]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.03.30-09.56.32:823][630]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.03.30-09.56.32:823][630]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.03.30-09.56.32:823][630]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.03.30-09.56.32:824][630]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.03.30-09.56.32:824][630]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.03.30-09.56.32:824][630]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.03.30-09.56.32:824][630]LogAudioMixer: Display: Initializing audio mixer.
+[2023.03.30-09.56.32:828][630]LogAudioMixer: Display: 0: FrontLeft
+[2023.03.30-09.56.32:828][630]LogAudioMixer: Display: 1: FrontRight
+[2023.03.30-09.56.32:898][630]LogAudioMixer: Display: Using Audio Device Headphones (Realtek(R) Audio)
+[2023.03.30-09.56.32:900][630]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.03.30-09.56.32:900][630]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.03.30-09.56.32:900][630]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.03.30-09.56.32:902][630]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2023.03.30-09.56.32:902][630]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2023.03.30-09.56.32:902][630]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2023.03.30-09.56.32:906][630]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2023.03.30-09.56.32:906][630]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2023.03.30-09.56.32:906][630]LogInit: FAudioDevice initialized.
+[2023.03.30-09.56.32:906][630]LogAudio: Display: Audio Device (ID: 17) registered with world 'ThirdPersonExampleMap'.
+[2023.03.30-09.56.32:919][630]LogLoad: Game class is 'FroggerCloneGameMode'
+[2023.03.30-09.56.32:922][630]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2023.03.30-10.56.32
+[2023.03.30-09.56.32:922][630]LogWorld: Bringing up level for play took: 0.001823
+[2023.03.30-09.56.32:922][630]LogOnline: OSS: Creating online subsystem instance for: :Context_27
+[2023.03.30-09.56.32:927][630]PIE: Server logged in
+[2023.03.30-09.56.32:927][630]PIE: Play in editor total start time 0.218 seconds.
+[2023.03.30-09.56.41:032][112]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.30-09.56.41:032][112]LogWorld: BeginTearingDown for /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2023.03.30-09.56.41:032][112]LogWorld: UWorld::CleanupWorld for ThirdPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2023.03.30-09.56.41:033][112]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.30-09.56.41:050][112]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.03.30-09.56.41:056][112]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.30-09.56.41:083][112]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.03.30-09.56.41:086][112]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.03.30-09.56.41:087][112]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.03.30-09.56.41:091][112]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.30-09.56.41:126][112]LogUObjectHash: Compacting FUObjectHashTables data took   3.87ms
+[2023.03.30-09.56.41:155][113]LogPlayLevel: Display: Destroying online subsystem :Context_27
+[2023.03.30-09.56.55:482][226]LogHotReload: New module detected: UE4Editor-FroggerClone-0028.dll
+[2023.03.30-09.56.56:519][230]LogHotReload: Starting Hot-Reload from IDE
+[2023.03.30-09.56.56:586][230]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'FroggerClone' in 0.0004 seconds. Added 2 classes and 2 folders.
+[2023.03.30-09.56.56:594][230]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
+[2023.03.30-09.56.56:676][230]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0133 seconds. Added 3824 classes and 930 folders.
+[2023.03.30-09.56.56:681][230]Display: HotReload took  0.2s.
+[2023.03.30-09.58.26:871][499]LogHotReload: New module detected: UE4Editor-FroggerClone-0029.dll
+[2023.03.30-09.58.28:237][504]LogHotReload: Starting Hot-Reload from IDE
+[2023.03.30-09.58.28:301][504]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'FroggerClone' in 0.0003 seconds. Added 2 classes and 2 folders.
+[2023.03.30-09.58.28:309][504]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
+[2023.03.30-09.58.28:406][504]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0115 seconds. Added 3824 classes and 930 folders.
+[2023.03.30-09.58.28:412][504]Display: HotReload took  0.2s.
+[2023.03.30-10.01.44:704][ 90]LogHotReload: New module detected: UE4Editor-FroggerClone-0033.dll
+[2023.03.30-10.01.45:733][ 94]LogHotReload: Starting Hot-Reload from IDE
+[2023.03.30-10.01.45:829][ 94]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'FroggerClone' in 0.0003 seconds. Added 2 classes and 2 folders.
+[2023.03.30-10.01.45:837][ 94]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
+[2023.03.30-10.01.45:942][ 94]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0107 seconds. Added 3824 classes and 930 folders.
+[2023.03.30-10.01.45:947][ 94]Display: HotReload took  0.2s.
+[2023.03.30-10.01.51:543][307]LogTemp: Repeating last play command: Selected Viewport
+[2023.03.30-10.01.51:550][307]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.03.30-10.01.51:550][307]PIE: New page: PIE session: ThirdPersonExampleMap (30 Mar 2023, 12:01:51)
+[2023.03.30-10.01.51:550][307]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2023.03.30-10.01.51:563][307]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012374s)
+[2023.03.30-10.01.51:565][307]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2023.03.30-10.01.51:565][307]LogPlayLevel: PIE: World Init took: (0.001726s)
+[2023.03.30-10.01.51:565][307]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.014431s)
+[2023.03.30-10.01.51:723][307]LogUObjectHash: Compacting FUObjectHashTables data took   7.60ms
+[2023.03.30-10.01.51:733][307]LogAudio: Display: Creating Audio Device:                 Id: 18, Scope: Unique, Realtime: True
+[2023.03.30-10.01.51:733][307]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.03.30-10.01.51:733][307]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.03.30-10.01.51:733][307]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.03.30-10.01.51:733][307]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.03.30-10.01.51:733][307]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.03.30-10.01.51:733][307]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.03.30-10.01.51:733][307]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.03.30-10.01.51:733][307]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.03.30-10.01.51:733][307]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.03.30-10.01.51:733][307]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.03.30-10.01.51:733][307]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.03.30-10.01.51:733][307]LogAudioMixer: Display: Initializing audio mixer.
+[2023.03.30-10.01.51:736][307]LogAudioMixer: Display: 0: FrontLeft
+[2023.03.30-10.01.51:736][307]LogAudioMixer: Display: 1: FrontRight
+[2023.03.30-10.01.51:802][307]LogAudioMixer: Display: Using Audio Device Headphones (Realtek(R) Audio)
+[2023.03.30-10.01.51:803][307]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.03.30-10.01.51:803][307]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.03.30-10.01.51:803][307]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.03.30-10.01.51:805][307]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2023.03.30-10.01.51:805][307]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2023.03.30-10.01.51:805][307]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2023.03.30-10.01.51:807][307]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2023.03.30-10.01.51:807][307]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2023.03.30-10.01.51:807][307]LogInit: FAudioDevice initialized.
+[2023.03.30-10.01.51:807][307]LogAudio: Display: Audio Device (ID: 18) registered with world 'ThirdPersonExampleMap'.
+[2023.03.30-10.01.51:831][307]LogLoad: Game class is 'FroggerCloneGameMode'
+[2023.03.30-10.01.51:833][307]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2023.03.30-11.01.51
+[2023.03.30-10.01.51:833][307]LogWorld: Bringing up level for play took: 0.001615
+[2023.03.30-10.01.51:833][307]LogOnline: OSS: Creating online subsystem instance for: :Context_28
+[2023.03.30-10.01.51:838][307]PIE: Server logged in
+[2023.03.30-10.01.51:839][307]PIE: Play in editor total start time 0.291 seconds.
+[2023.03.30-10.02.13:931][620]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.30-10.02.13:931][620]LogWorld: BeginTearingDown for /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2023.03.30-10.02.13:931][620]LogWorld: UWorld::CleanupWorld for ThirdPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2023.03.30-10.02.13:932][620]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.30-10.02.13:960][620]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.03.30-10.02.13:965][620]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.30-10.02.13:990][620]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.03.30-10.02.13:990][620]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.03.30-10.02.13:991][620]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.03.30-10.02.13:997][620]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.30-10.02.14:001][620]LogUObjectHash: Compacting FUObjectHashTables data took   3.28ms
+[2023.03.30-10.02.14:028][621]LogPlayLevel: Display: Destroying online subsystem :Context_28
+[2023.03.30-10.02.42:261][858]LogHotReload: New module detected: UE4Editor-FroggerClone-0034.dll
+[2023.03.30-10.02.43:289][862]LogHotReload: Starting Hot-Reload from IDE
+[2023.03.30-10.02.43:348][862]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'FroggerClone' in 0.0003 seconds. Added 2 classes and 2 folders.
+[2023.03.30-10.02.43:354][862]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
+[2023.03.30-10.02.43:441][862]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0105 seconds. Added 3824 classes and 930 folders.
+[2023.03.30-10.02.43:446][862]Display: HotReload took  0.2s.
+[2023.03.30-10.02.46:485][ 10]LogTemp: Repeating last play command: Selected Viewport
+[2023.03.30-10.02.46:492][ 10]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.03.30-10.02.46:492][ 10]PIE: New page: PIE session: ThirdPersonExampleMap (30 Mar 2023, 12:02:46)
+[2023.03.30-10.02.46:492][ 10]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2023.03.30-10.02.46:505][ 10]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011899s)
+[2023.03.30-10.02.46:507][ 10]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2023.03.30-10.02.46:507][ 10]LogPlayLevel: PIE: World Init took: (0.002193s)
+[2023.03.30-10.02.46:508][ 10]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.014270s)
+[2023.03.30-10.02.46:582][ 10]LogUObjectHash: Compacting FUObjectHashTables data took   4.80ms
+[2023.03.30-10.02.46:587][ 10]LogAudio: Display: Creating Audio Device:                 Id: 19, Scope: Unique, Realtime: True
+[2023.03.30-10.02.46:587][ 10]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.03.30-10.02.46:587][ 10]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.03.30-10.02.46:587][ 10]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.03.30-10.02.46:587][ 10]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.03.30-10.02.46:587][ 10]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.03.30-10.02.46:587][ 10]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.03.30-10.02.46:587][ 10]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.03.30-10.02.46:587][ 10]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.03.30-10.02.46:587][ 10]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.03.30-10.02.46:588][ 10]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.03.30-10.02.46:588][ 10]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.03.30-10.02.46:588][ 10]LogAudioMixer: Display: Initializing audio mixer.
+[2023.03.30-10.02.46:593][ 10]LogAudioMixer: Display: 0: FrontLeft
+[2023.03.30-10.02.46:593][ 10]LogAudioMixer: Display: 1: FrontRight
+[2023.03.30-10.02.46:661][ 10]LogAudioMixer: Display: Using Audio Device Headphones (Realtek(R) Audio)
+[2023.03.30-10.02.46:661][ 10]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.03.30-10.02.46:662][ 10]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.03.30-10.02.46:662][ 10]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.03.30-10.02.46:662][ 10]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2023.03.30-10.02.46:662][ 10]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2023.03.30-10.02.46:662][ 10]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2023.03.30-10.02.46:664][ 10]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2023.03.30-10.02.46:664][ 10]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2023.03.30-10.02.46:664][ 10]LogInit: FAudioDevice initialized.
+[2023.03.30-10.02.46:664][ 10]LogAudio: Display: Audio Device (ID: 19) registered with world 'ThirdPersonExampleMap'.
+[2023.03.30-10.02.46:675][ 10]LogLoad: Game class is 'FroggerCloneGameMode'
+[2023.03.30-10.02.46:678][ 10]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2023.03.30-11.02.46
+[2023.03.30-10.02.46:679][ 10]LogWorld: Bringing up level for play took: 0.001897
+[2023.03.30-10.02.46:679][ 10]LogOnline: OSS: Creating online subsystem instance for: :Context_29
+[2023.03.30-10.02.46:681][ 10]PIE: Server logged in
+[2023.03.30-10.02.46:682][ 10]PIE: Play in editor total start time 0.192 seconds.
+[2023.03.30-10.02.50:332][226]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.30-10.02.50:332][226]LogWorld: BeginTearingDown for /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2023.03.30-10.02.50:332][226]LogWorld: UWorld::CleanupWorld for ThirdPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2023.03.30-10.02.50:332][226]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.30-10.02.50:353][226]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.03.30-10.02.50:358][226]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.30-10.02.50:379][226]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.30-10.02.50:380][226]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.03.30-10.02.50:383][226]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.03.30-10.02.50:420][226]LogUObjectHash: Compacting FUObjectHashTables data took   3.56ms
+[2023.03.30-10.02.50:447][227]LogPlayLevel: Display: Destroying online subsystem :Context_29
+[2023.03.30-10.03.00:872][373]LogHotReload: New module detected: UE4Editor-FroggerClone-0035.dll
+[2023.03.30-10.03.02:229][378]LogHotReload: Starting Hot-Reload from IDE
+[2023.03.30-10.03.02:286][378]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'FroggerClone' in 0.0003 seconds. Added 2 classes and 2 folders.
+[2023.03.30-10.03.02:292][378]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
+[2023.03.30-10.03.02:373][378]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0121 seconds. Added 3824 classes and 930 folders.
+[2023.03.30-10.03.02:378][378]Display: HotReload took  0.1s.
+[2023.03.30-10.03.04:340][421]LogTemp: Repeating last play command: Selected Viewport
+[2023.03.30-10.03.04:346][421]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.03.30-10.03.04:346][421]PIE: New page: PIE session: ThirdPersonExampleMap (30 Mar 2023, 12:03:04)
+[2023.03.30-10.03.04:346][421]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2023.03.30-10.03.04:359][421]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011883s)
+[2023.03.30-10.03.04:362][421]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2023.03.30-10.03.04:362][421]LogPlayLevel: PIE: World Init took: (0.003411s)
+[2023.03.30-10.03.04:363][421]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.015741s)
+[2023.03.30-10.03.04:431][421]LogUObjectHash: Compacting FUObjectHashTables data took   4.68ms
+[2023.03.30-10.03.04:433][421]LogAudio: Display: Creating Audio Device:                 Id: 20, Scope: Unique, Realtime: True
+[2023.03.30-10.03.04:433][421]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.03.30-10.03.04:434][421]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.03.30-10.03.04:434][421]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.03.30-10.03.04:434][421]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.03.30-10.03.04:434][421]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.03.30-10.03.04:434][421]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.03.30-10.03.04:434][421]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.03.30-10.03.04:434][421]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.03.30-10.03.04:434][421]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.03.30-10.03.04:434][421]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.03.30-10.03.04:434][421]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.03.30-10.03.04:434][421]LogAudioMixer: Display: Initializing audio mixer.
+[2023.03.30-10.03.04:436][421]LogAudioMixer: Display: 0: FrontLeft
+[2023.03.30-10.03.04:436][421]LogAudioMixer: Display: 1: FrontRight
+[2023.03.30-10.03.04:498][421]LogAudioMixer: Display: Using Audio Device Headphones (Realtek(R) Audio)
+[2023.03.30-10.03.04:499][421]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.03.30-10.03.04:499][421]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.03.30-10.03.04:499][421]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.03.30-10.03.04:500][421]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2023.03.30-10.03.04:500][421]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2023.03.30-10.03.04:500][421]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2023.03.30-10.03.04:502][421]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2023.03.30-10.03.04:502][421]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2023.03.30-10.03.04:502][421]LogInit: FAudioDevice initialized.
+[2023.03.30-10.03.04:502][421]LogAudio: Display: Audio Device (ID: 20) registered with world 'ThirdPersonExampleMap'.
+[2023.03.30-10.03.04:515][421]LogLoad: Game class is 'FroggerCloneGameMode'
+[2023.03.30-10.03.04:517][421]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2023.03.30-11.03.04
+[2023.03.30-10.03.04:518][421]LogWorld: Bringing up level for play took: 0.001515
+[2023.03.30-10.03.04:518][421]LogOnline: OSS: Creating online subsystem instance for: :Context_30
+[2023.03.30-10.03.04:520][421]PIE: Server logged in
+[2023.03.30-10.03.04:521][421]PIE: Play in editor total start time 0.177 seconds.
+[2023.03.30-10.03.42:053][668]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.30-10.03.42:053][668]LogWorld: BeginTearingDown for /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2023.03.30-10.03.42:053][668]LogWorld: UWorld::CleanupWorld for ThirdPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2023.03.30-10.03.42:053][668]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.30-10.03.42:063][668]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.03.30-10.03.42:069][668]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.30-10.03.42:092][668]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.03.30-10.03.42:092][668]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.03.30-10.03.42:093][668]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.03.30-10.03.42:096][668]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.30-10.03.42:102][668]LogUObjectHash: Compacting FUObjectHashTables data took   3.79ms
+[2023.03.30-10.03.42:127][669]LogPlayLevel: Display: Destroying online subsystem :Context_30
+[2023.03.30-10.03.58:241][871]LogHotReload: New module detected: UE4Editor-FroggerClone-0036.dll
+[2023.03.30-10.03.59:607][876]LogHotReload: Starting Hot-Reload from IDE
+[2023.03.30-10.03.59:669][876]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'FroggerClone' in 0.0005 seconds. Added 2 classes and 2 folders.
+[2023.03.30-10.03.59:677][876]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
+[2023.03.30-10.03.59:780][876]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0134 seconds. Added 3824 classes and 930 folders.
+[2023.03.30-10.03.59:785][876]Display: HotReload took  0.2s.
+[2023.03.30-10.04.15:507][981]LogTemp: Repeating last play command: Selected Viewport
+[2023.03.30-10.04.15:514][981]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.03.30-10.04.15:515][981]PIE: New page: PIE session: ThirdPersonExampleMap (30 Mar 2023, 12:04:15)
+[2023.03.30-10.04.15:515][981]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2023.03.30-10.04.15:529][981]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014404s)
+[2023.03.30-10.04.15:531][981]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2023.03.30-10.04.15:531][981]LogPlayLevel: PIE: World Init took: (0.001674s)
+[2023.03.30-10.04.15:531][981]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.016278s)
+[2023.03.30-10.04.15:615][981]LogUObjectHash: Compacting FUObjectHashTables data took   5.35ms
+[2023.03.30-10.04.15:619][981]LogAudio: Display: Creating Audio Device:                 Id: 21, Scope: Unique, Realtime: True
+[2023.03.30-10.04.15:619][981]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.03.30-10.04.15:619][981]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.03.30-10.04.15:619][981]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.03.30-10.04.15:619][981]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.03.30-10.04.15:619][981]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.03.30-10.04.15:619][981]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.03.30-10.04.15:619][981]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.03.30-10.04.15:619][981]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.03.30-10.04.15:619][981]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.03.30-10.04.15:619][981]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.03.30-10.04.15:619][981]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.03.30-10.04.15:619][981]LogAudioMixer: Display: Initializing audio mixer.
+[2023.03.30-10.04.15:621][981]LogAudioMixer: Display: 0: FrontLeft
+[2023.03.30-10.04.15:621][981]LogAudioMixer: Display: 1: FrontRight
+[2023.03.30-10.04.15:684][981]LogAudioMixer: Display: Using Audio Device Headphones (Realtek(R) Audio)
+[2023.03.30-10.04.15:684][981]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.03.30-10.04.15:684][981]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.03.30-10.04.15:684][981]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.03.30-10.04.15:685][981]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2023.03.30-10.04.15:685][981]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2023.03.30-10.04.15:685][981]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2023.03.30-10.04.15:688][981]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2023.03.30-10.04.15:688][981]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2023.03.30-10.04.15:688][981]LogInit: FAudioDevice initialized.
+[2023.03.30-10.04.15:688][981]LogAudio: Display: Audio Device (ID: 21) registered with world 'ThirdPersonExampleMap'.
+[2023.03.30-10.04.15:702][981]LogLoad: Game class is 'FroggerCloneGameMode'
+[2023.03.30-10.04.15:704][981]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2023.03.30-11.04.15
+[2023.03.30-10.04.15:704][981]LogWorld: Bringing up level for play took: 0.001554
+[2023.03.30-10.04.15:706][981]LogOnline: OSS: Creating online subsystem instance for: :Context_31
+[2023.03.30-10.04.15:708][981]PIE: Server logged in
+[2023.03.30-10.04.15:709][981]PIE: Play in editor total start time 0.197 seconds.
+[2023.03.30-10.04.33:581][ 49]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.30-10.04.33:581][ 49]LogWorld: BeginTearingDown for /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2023.03.30-10.04.33:581][ 49]LogWorld: UWorld::CleanupWorld for ThirdPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2023.03.30-10.04.33:582][ 49]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.30-10.04.33:596][ 49]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.03.30-10.04.33:602][ 49]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.30-10.04.33:627][ 49]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.30-10.04.33:636][ 49]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.03.30-10.04.33:638][ 49]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.03.30-10.04.33:666][ 49]LogUObjectHash: Compacting FUObjectHashTables data took   4.58ms
+[2023.03.30-10.04.33:692][ 50]LogPlayLevel: Display: Destroying online subsystem :Context_31

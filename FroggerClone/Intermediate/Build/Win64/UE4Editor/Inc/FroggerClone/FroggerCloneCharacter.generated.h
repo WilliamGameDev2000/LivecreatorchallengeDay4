@@ -14,8 +14,16 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #define FROGGERCLONE_FroggerCloneCharacter_generated_h
 
 #define FroggerClone_Source_FroggerClone_FroggerCloneCharacter_h_12_SPARSE_DATA
-#define FroggerClone_Source_FroggerClone_FroggerCloneCharacter_h_12_RPC_WRAPPERS
-#define FroggerClone_Source_FroggerClone_FroggerCloneCharacter_h_12_RPC_WRAPPERS_NO_PURE_DECLS
+#define FroggerClone_Source_FroggerClone_FroggerCloneCharacter_h_12_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execTimerEnd);
+
+
+#define FroggerClone_Source_FroggerClone_FroggerCloneCharacter_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execTimerEnd);
+
+
 #define FroggerClone_Source_FroggerClone_FroggerCloneCharacter_h_12_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAFroggerCloneCharacter(); \

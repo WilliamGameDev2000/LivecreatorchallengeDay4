@@ -21,7 +21,7 @@ void EmptyLinkFunctionForGeneratedCodeFroggerClone_init() {}
 				nullptr,
 				0,
 				PKG_CompiledIn | 0x00000000,
-				0xAB9E4A53,
+				0x7D4D9DA0,
 				0x7940320B,
 				METADATA_PARAMS(nullptr, 0)
 			};

@@ -20,8 +20,42 @@ void EmptyLinkFunctionForGeneratedCodeFroggerCloneCharacter() {}
 	ENGINE_API UClass* Z_Construct_UClass_USpringArmComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_UCameraComponent_NoRegister();
 // End Cross Module References
+	DEFINE_FUNCTION(AFroggerCloneCharacter::execTimerEnd)
+	{
+		P_FINISH;
+		P_NATIVE_BEGIN;
+		P_THIS->TimerEnd();
+		P_NATIVE_END;
+	}
 	void AFroggerCloneCharacter::StaticRegisterNativesAFroggerCloneCharacter()
 	{
+		UClass* Class = AFroggerCloneCharacter::StaticClass();
+		static const FNameNativePtrPair Funcs[] = {
+			{ "TimerEnd", &AFroggerCloneCharacter::execTimerEnd },
+		};
+		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, UE_ARRAY_COUNT(Funcs));
+	}
+	struct Z_Construct_UFunction_AFroggerCloneCharacter_TimerEnd_Statics
+	{
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AFroggerCloneCharacter_TimerEnd_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "FroggerCloneCharacter.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AFroggerCloneCharacter_TimerEnd_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AFroggerCloneCharacter, nullptr, "TimerEnd", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00040401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AFroggerCloneCharacter_TimerEnd_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_AFroggerCloneCharacter_TimerEnd_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_AFroggerCloneCharacter_TimerEnd()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AFroggerCloneCharacter_TimerEnd_Statics::FuncParams);
+		}
+		return ReturnFunction;
 	}
 	UClass* Z_Construct_UClass_AFroggerCloneCharacter_NoRegister()
 	{
@@ -30,6 +64,7 @@ void EmptyLinkFunctionForGeneratedCodeFroggerCloneCharacter() {}
 	struct Z_Construct_UClass_AFroggerCloneCharacter_Statics
 	{
 		static UObject* (*const DependentSingletons[])();
+		static const FClassFunctionLinkInfo FuncInfo[];
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
@@ -41,14 +76,6 @@ void EmptyLinkFunctionForGeneratedCodeFroggerCloneCharacter() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_FollowCamera_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_FollowCamera;
-#if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_BaseTurnRate_MetaData[];
-#endif
-		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_BaseTurnRate;
-#if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_BaseLookUpRate_MetaData[];
-#endif
-		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_BaseLookUpRate;
 		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UE4CodeGen_Private::FClassParams ClassParams;
@@ -56,6 +83,9 @@ void EmptyLinkFunctionForGeneratedCodeFroggerCloneCharacter() {}
 	UObject* (*const Z_Construct_UClass_AFroggerCloneCharacter_Statics::DependentSingletons[])() = {
 		(UObject* (*)())Z_Construct_UClass_ACharacter,
 		(UObject* (*)())Z_Construct_UPackage__Script_FroggerClone,
+	};
+	const FClassFunctionLinkInfo Z_Construct_UClass_AFroggerCloneCharacter_Statics::FuncInfo[] = {
+		{ &Z_Construct_UFunction_AFroggerCloneCharacter_TimerEnd, "TimerEnd" }, // 3744689272
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AFroggerCloneCharacter_Statics::Class_MetaDataParams[] = {
@@ -86,29 +116,9 @@ void EmptyLinkFunctionForGeneratedCodeFroggerCloneCharacter() {}
 	};
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AFroggerCloneCharacter_Statics::NewProp_FollowCamera = { "FollowCamera", nullptr, (EPropertyFlags)0x00400000000a001d, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AFroggerCloneCharacter, FollowCamera), Z_Construct_UClass_UCameraComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AFroggerCloneCharacter_Statics::NewProp_FollowCamera_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AFroggerCloneCharacter_Statics::NewProp_FollowCamera_MetaData)) };
-#if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AFroggerCloneCharacter_Statics::NewProp_BaseTurnRate_MetaData[] = {
-		{ "Category", "Camera" },
-		{ "Comment", "/** Base turn rate, in deg/sec. Other scaling may affect final turn rate. */" },
-		{ "ModuleRelativePath", "FroggerCloneCharacter.h" },
-		{ "ToolTip", "Base turn rate, in deg/sec. Other scaling may affect final turn rate." },
-	};
-#endif
-	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AFroggerCloneCharacter_Statics::NewProp_BaseTurnRate = { "BaseTurnRate", nullptr, (EPropertyFlags)0x0010000000020015, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AFroggerCloneCharacter, BaseTurnRate), METADATA_PARAMS(Z_Construct_UClass_AFroggerCloneCharacter_Statics::NewProp_BaseTurnRate_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AFroggerCloneCharacter_Statics::NewProp_BaseTurnRate_MetaData)) };
-#if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AFroggerCloneCharacter_Statics::NewProp_BaseLookUpRate_MetaData[] = {
-		{ "Category", "Camera" },
-		{ "Comment", "/** Base look up/down rate, in deg/sec. Other scaling may affect final rate. */" },
-		{ "ModuleRelativePath", "FroggerCloneCharacter.h" },
-		{ "ToolTip", "Base look up/down rate, in deg/sec. Other scaling may affect final rate." },
-	};
-#endif
-	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AFroggerCloneCharacter_Statics::NewProp_BaseLookUpRate = { "BaseLookUpRate", nullptr, (EPropertyFlags)0x0010000000020015, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AFroggerCloneCharacter, BaseLookUpRate), METADATA_PARAMS(Z_Construct_UClass_AFroggerCloneCharacter_Statics::NewProp_BaseLookUpRate_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AFroggerCloneCharacter_Statics::NewProp_BaseLookUpRate_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AFroggerCloneCharacter_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AFroggerCloneCharacter_Statics::NewProp_CameraBoom,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AFroggerCloneCharacter_Statics::NewProp_FollowCamera,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AFroggerCloneCharacter_Statics::NewProp_BaseTurnRate,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AFroggerCloneCharacter_Statics::NewProp_BaseLookUpRate,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_AFroggerCloneCharacter_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<AFroggerCloneCharacter>::IsAbstract,
@@ -118,11 +128,11 @@ void EmptyLinkFunctionForGeneratedCodeFroggerCloneCharacter() {}
 		"Game",
 		&StaticCppClassTypeInfo,
 		DependentSingletons,
-		nullptr,
+		FuncInfo,
 		Z_Construct_UClass_AFroggerCloneCharacter_Statics::PropPointers,
 		nullptr,
 		UE_ARRAY_COUNT(DependentSingletons),
-		0,
+		UE_ARRAY_COUNT(FuncInfo),
 		UE_ARRAY_COUNT(Z_Construct_UClass_AFroggerCloneCharacter_Statics::PropPointers),
 		0,
 		0x008000A4u,
@@ -137,7 +147,7 @@ void EmptyLinkFunctionForGeneratedCodeFroggerCloneCharacter() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AFroggerCloneCharacter, 2544899945);
+	IMPLEMENT_CLASS(AFroggerCloneCharacter, 3200282477);
 	template<> FROGGERCLONE_API UClass* StaticClass<AFroggerCloneCharacter>()
 	{
 		return AFroggerCloneCharacter::StaticClass();
