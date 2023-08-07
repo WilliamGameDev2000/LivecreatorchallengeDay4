@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\FroggerClone.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{DD17DD06-C491-46A2-80E1-C717B6DCA65B}</UniqueIdentifier>
+      <UniqueIdentifier>{988005E6-58E0-4166-BB5D-EBF635B3027E}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\FroggerClone.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{677A29ED-51F2-476E-8D35-B4BE074986FC}</UniqueIdentifier>
+      <UniqueIdentifier>{24B5E6BF-629B-4F3C-B3C9-82200785CAE5}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -30,8 +30,14 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\FroggerClone">
-      <UniqueIdentifier>{0314F7AE-7D04-48A3-AB09-04863643BCFA}</UniqueIdentifier>
+      <UniqueIdentifier>{5CEF6908-587F-4D5F-9C25-4656FF251827}</UniqueIdentifier>
     </Filter>
+    <ClCompile Include="..\..\Source\FroggerClone\CarObject.cpp">
+      <Filter>Source\FroggerClone</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\FroggerClone\CarObject.h">
+      <Filter>Source\FroggerClone</Filter>
+    </ClInclude>
     <None Include="..\..\Source\FroggerClone\FroggerClone.Build.cs">
       <Filter>Source\FroggerClone</Filter>
     </None>

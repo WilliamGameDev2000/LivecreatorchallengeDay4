@@ -1,0 +1,5 @@
+C:\Users\William\Documents\GitHub\LivecreatorchallengeDay4\FroggerClone\Intermediate\Build\Win64\UE4Editor\Development\FroggerClone\Definitions.FroggerClone.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
+C:\Users\William\Documents\GitHub\LivecreatorchallengeDay4\FroggerClone\Source\FroggerClone/CarObject.h
+C:\Users\William\Documents\GitHub\LivecreatorchallengeDay4\FroggerClone\Intermediate\Build\Win64\UE4Editor\Inc\FroggerClone\CarObject.generated.h
